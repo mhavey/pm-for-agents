@@ -1,0 +1,13 @@
+out/
+out_smoke/
+out_test/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.git/
+.gitignore
+.idea/
+.vscode/
+CLAUDE.md

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_trusteeship_intended" targetNamespace="http://tmls2026/trusteeship" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="18.13.2">
+  <bpmn:process id="trusteeship_intended" name="Trusteeship application — three-phase intended flow" isExecutable="false">
+    <bpmn:documentation>
+      Three-phase trusteeship-application flow:
+
+        Phase 1 (linear):
+          Start (TrusteeshipRequested) → CreateApplication →
+          assess_initial_state.
+
+        Phase 2 (event loop, conditional):
+          Skipped if `application` AND `medical` are already complete after
+          the initial assessment. Otherwise: wait for ApplicationUpdate or
+          MedicalUpdate; AI assesses the corresponding item; check if both
+          are now complete; loop back if not.
+
+        Phase 3 (event loop, conditional):
+          Skipped if `credit_check` AND `criminal_check` AND
+          `personal_references` are already complete by the time Phase 2
+          finishes (or is skipped). Otherwise: wait for any of three update
+          events; AI assesses the corresponding item; check if all three
+          are now complete; loop back if not.
+
+        Terminal:
+          mark_ready_for_court → ReadyForCourt.
+
+      Activity names match the OTel span names the agent emits. The five
+      assess_* names + mark_ready_for_court + reject_application come from
+      @tool decoration. CreateApplication is the one manually-instrumented
+      entrypoint span.
+
+      Each external event arrives as a separate AgentCore invocation /
+      X-Ray trace. End-to-end conformance requires assembling traces by
+      application_id (future work in xray_to_xes.py — currently uses
+      X-Ray trace id as the case id).
+    </bpmn:documentation>
+    <bpmn:startEvent id="start" name="TrusteeshipRequested">
+      <bpmn:outgoing>flow_start_to_create</bpmn:outgoing>
+      <bpmn:messageEventDefinition />
+    </bpmn:startEvent>
+    <bpmn:serviceTask id="task_assess_initial_state" name="assess_initial_state">
+      <bpmn:incoming>flow_start_to_create</bpmn:incoming>
+      <bpmn:outgoing>flow_initial_assess_to_gw2_skip</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="gw_skip_phase2" name="App + Medical already complete?" default="flow_skip2_no_to_wait2">
+      <bpmn:incoming>flow_initial_assess_to_gw2_skip</bpmn:incoming>
+      <bpmn:outgoing>flow_skip2_no_to_wait2</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0ipyage</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:eventBasedGateway id="gw_phase2_wait" name="Wait for application/medical event">
+      <bpmn:incoming>flow_skip2_no_to_wait2</bpmn:incoming>
+      <bpmn:incoming>flow_continue2_no_loop</bpmn:incoming>
+      <bpmn:outgoing>flow_wait2_to_app_update</bpmn:outgoing>
+      <bpmn:outgoing>flow_wait2_to_med_update</bpmn:outgoing>
+    </bpmn:eventBasedGateway>
+    <bpmn:intermediateCatchEvent id="event_application_update" name="ApplicationUpdate">
+      <bpmn:incoming>flow_wait2_to_app_update</bpmn:incoming>
+      <bpmn:outgoing>flow_app_update_to_assess</bpmn:outgoing>
+      <bpmn:messageEventDefinition />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:intermediateCatchEvent id="event_medical_update" name="MedicalUpdate">
+      <bpmn:incoming>flow_wait2_to_med_update</bpmn:incoming>
+      <bpmn:outgoing>flow_med_update_to_assess</bpmn:outgoing>
+      <bpmn:messageEventDefinition />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:serviceTask id="task_assess_application" name="assess_application">
+      <bpmn:incoming>flow_app_update_to_assess</bpmn:incoming>
+      <bpmn:outgoing>Flow_00n6h9p</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="task_assess_medical" name="assess_medical">
+      <bpmn:incoming>flow_med_update_to_assess</bpmn:incoming>
+      <bpmn:outgoing>Flow_1ofwpdi</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="gw_phase2_continue" name="App + Medical now complete?" default="flow_continue2_no_loop">
+      <bpmn:incoming>Flow_1ofwpdi</bpmn:incoming>
+      <bpmn:incoming>Flow_00n6h9p</bpmn:incoming>
+      <bpmn:outgoing>flow_continue2_no_loop</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1kewc5g</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="gw_skip_phase3" name="CCP already complete?" default="flow_skip3_no_to_wait3">
+      <bpmn:incoming>Flow_0ipyage</bpmn:incoming>
+      <bpmn:incoming>Flow_1kewc5g</bpmn:incoming>
+      <bpmn:outgoing>flow_skip3_no_to_wait3</bpmn:outgoing>
+      <bpmn:outgoing>Flow_06tpq93</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:eventBasedGateway id="gw_phase3_wait" name="Wait for background-check event">
+      <bpmn:incoming>flow_skip3_no_to_wait3</bpmn:incoming>
+      <bpmn:incoming>Flow_0y9wfjz</bpmn:incoming>
+      <bpmn:outgoing>flow_wait3_to_credit_update</bpmn:outgoing>
+      <bpmn:outgoing>flow_wait3_to_criminal_update</bpmn:outgoing>
+      <bpmn:outgoing>flow_wait3_to_refs_update</bpmn:outgoing>
+    </bpmn:eventBasedGateway>
+    <bpmn:intermediateCatchEvent id="event_credit_check_update" name="CreditCheckUpdate">
+      <bpmn:incoming>flow_wait3_to_credit_update</bpmn:incoming>
+      <bpmn:outgoing>Flow_04d8o1q</bpmn:outgoing>
+      <bpmn:messageEventDefinition />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:intermediateCatchEvent id="event_criminal_check_update" name="CriminalCheckUpdate">
+      <bpmn:incoming>flow_wait3_to_criminal_update</bpmn:incoming>
+      <bpmn:outgoing>flow_criminal_update_to_assess</bpmn:outgoing>
+      <bpmn:messageEventDefinition />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:intermediateCatchEvent id="event_personal_references_update" name="PersonalReferencesUpdate">
+      <bpmn:incoming>flow_wait3_to_refs_update</bpmn:incoming>
+      <bpmn:outgoing>flow_refs_update_to_assess</bpmn:outgoing>
+      <bpmn:messageEventDefinition />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:serviceTask id="task_assess_credit_check" name="assess_credit_check">
+      <bpmn:incoming>Flow_04d8o1q</bpmn:incoming>
+      <bpmn:outgoing>flow_assess_credit_to_continue3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="task_assess_criminal_check" name="assess_criminal_check">
+      <bpmn:incoming>flow_criminal_update_to_assess</bpmn:incoming>
+      <bpmn:outgoing>flow_assess_criminal_to_continue3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="task_assess_personal_references" name="assess_personal_references">
+      <bpmn:incoming>flow_refs_update_to_assess</bpmn:incoming>
+      <bpmn:outgoing>flow_assess_refs_to_continue3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="gw_phase3_continue" name="All 3 checks now complete?" default="Flow_0y9wfjz">
+      <bpmn:incoming>flow_assess_credit_to_continue3</bpmn:incoming>
+      <bpmn:incoming>flow_assess_criminal_to_continue3</bpmn:incoming>
+      <bpmn:incoming>flow_assess_refs_to_continue3</bpmn:incoming>
+      <bpmn:outgoing>Flow_19c5zm9</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0y9wfjz</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:serviceTask id="task_mark_ready_for_court" name="mark_ready_for_court">
+      <bpmn:incoming>Flow_06tpq93</bpmn:incoming>
+      <bpmn:incoming>Flow_19c5zm9</bpmn:incoming>
+      <bpmn:outgoing>flow_ready_to_end</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="end" name="ReadyForCourt">
+      <bpmn:incoming>flow_ready_to_end</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow_start_to_create" sourceRef="start" targetRef="task_assess_initial_state" />
+    <bpmn:sequenceFlow id="flow_initial_assess_to_gw2_skip" sourceRef="task_assess_initial_state" targetRef="gw_skip_phase2" />
+    <bpmn:sequenceFlow id="flow_skip2_no_to_wait2" sourceRef="gw_skip_phase2" targetRef="gw_phase2_wait" />
+    <bpmn:sequenceFlow id="flow_wait2_to_app_update" sourceRef="gw_phase2_wait" targetRef="event_application_update" />
+    <bpmn:sequenceFlow id="flow_wait2_to_med_update" sourceRef="gw_phase2_wait" targetRef="event_medical_update" />
+    <bpmn:sequenceFlow id="flow_app_update_to_assess" sourceRef="event_application_update" targetRef="task_assess_application" />
+    <bpmn:sequenceFlow id="flow_med_update_to_assess" sourceRef="event_medical_update" targetRef="task_assess_medical" />
+    <bpmn:sequenceFlow id="flow_continue2_no_loop" sourceRef="gw_phase2_continue" targetRef="gw_phase2_wait" />
+    <bpmn:sequenceFlow id="flow_skip3_no_to_wait3" sourceRef="gw_skip_phase3" targetRef="gw_phase3_wait" />
+    <bpmn:sequenceFlow id="flow_wait3_to_credit_update" sourceRef="gw_phase3_wait" targetRef="event_credit_check_update" />
+    <bpmn:sequenceFlow id="flow_wait3_to_criminal_update" sourceRef="gw_phase3_wait" targetRef="event_criminal_check_update" />
+    <bpmn:sequenceFlow id="flow_wait3_to_refs_update" sourceRef="gw_phase3_wait" targetRef="event_personal_references_update" />
+    <bpmn:sequenceFlow id="flow_criminal_update_to_assess" sourceRef="event_criminal_check_update" targetRef="task_assess_criminal_check" />
+    <bpmn:sequenceFlow id="flow_refs_update_to_assess" sourceRef="event_personal_references_update" targetRef="task_assess_personal_references" />
+    <bpmn:sequenceFlow id="flow_assess_credit_to_continue3" sourceRef="task_assess_credit_check" targetRef="gw_phase3_continue" />
+    <bpmn:sequenceFlow id="flow_assess_criminal_to_continue3" sourceRef="task_assess_criminal_check" targetRef="gw_phase3_continue" />
+    <bpmn:sequenceFlow id="flow_assess_refs_to_continue3" sourceRef="task_assess_personal_references" targetRef="gw_phase3_continue" />
+    <bpmn:sequenceFlow id="flow_ready_to_end" sourceRef="task_mark_ready_for_court" targetRef="end" />
+    <bpmn:sequenceFlow id="Flow_1ofwpdi" sourceRef="task_assess_medical" targetRef="gw_phase2_continue" />
+    <bpmn:sequenceFlow id="Flow_00n6h9p" sourceRef="task_assess_application" targetRef="gw_phase2_continue" />
+    <bpmn:sequenceFlow id="Flow_0ipyage" sourceRef="gw_skip_phase2" targetRef="gw_skip_phase3" />
+    <bpmn:sequenceFlow id="Flow_1kewc5g" sourceRef="gw_phase2_continue" targetRef="gw_skip_phase3" />
+    <bpmn:sequenceFlow id="Flow_04d8o1q" sourceRef="event_credit_check_update" targetRef="task_assess_credit_check" />
+    <bpmn:sequenceFlow id="Flow_06tpq93" sourceRef="gw_skip_phase3" targetRef="task_mark_ready_for_court" />
+    <bpmn:sequenceFlow id="Flow_19c5zm9" sourceRef="gw_phase3_continue" targetRef="task_mark_ready_for_court" />
+    <bpmn:sequenceFlow id="Flow_0y9wfjz" sourceRef="gw_phase3_continue" targetRef="gw_phase3_wait" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="diagram_1">
+    <bpmndi:BPMNPlane id="plane_1" bpmnElement="trusteeship_intended">
+      <bpmndi:BPMNShape id="shape_task_mark_ready" bpmnElement="task_mark_ready_for_court">
+        <dc:Bounds x="1790" y="470" width="200" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_end" bpmnElement="end">
+        <dc:Bounds x="2020" y="492" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2000" y="528" width="76" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_task_initial_assess" bpmnElement="task_assess_initial_state">
+        <dc:Bounds x="280" y="470" width="180" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_start" bpmnElement="start">
+        <dc:Bounds x="182" y="492" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="158" y="528" width="84" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_gw_skip_phase2" bpmnElement="gw_skip_phase2" isMarkerVisible="true">
+        <dc:Bounds x="525" y="485" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="505" y="535" width="90" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_gw_phase2_wait" bpmnElement="gw_phase2_wait">
+        <dc:Bounds x="525" y="275" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="429.5" y="280" width="85" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_event_med_update" bpmnElement="event_medical_update">
+        <dc:Bounds x="652" y="332" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="633" y="367" width="74" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_event_app_update" bpmnElement="event_application_update">
+        <dc:Bounds x="652" y="242" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="625" y="218" width="90" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_gw_phase2_continue" bpmnElement="gw_phase2_continue" isMarkerVisible="true">
+        <dc:Bounds x="1015" y="265" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1063" y="256" width="74" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_gw_skip_phase3" bpmnElement="gw_skip_phase3" isMarkerVisible="true">
+        <dc:Bounds x="1155" y="485" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1149" y="542" width="63" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_gw_phase3_wait" bpmnElement="gw_phase3_wait">
+        <dc:Bounds x="1195" y="265" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1225" y="230" width="90" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_task_assess_med" bpmnElement="task_assess_medical">
+        <dc:Bounds x="750" y="310" width="180" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_task_assess_app" bpmnElement="task_assess_application">
+        <dc:Bounds x="750" y="220" width="180" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_event_criminal_update" bpmnElement="event_criminal_check_update">
+        <dc:Bounds x="1332" y="272" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1307" y="308" width="86" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_task_assess_criminal" bpmnElement="task_assess_criminal_check">
+        <dc:Bounds x="1420" y="250" width="200" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_event_refs_update" bpmnElement="event_personal_references_update">
+        <dc:Bounds x="1332" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1309" y="408" width="83" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_task_assess_refs" bpmnElement="task_assess_personal_references">
+        <dc:Bounds x="1410" y="350" width="220" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_event_credit_update" bpmnElement="event_credit_check_update">
+        <dc:Bounds x="1332" y="152" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1307" y="188" width="87" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_task_assess_credit" bpmnElement="task_assess_credit_check">
+        <dc:Bounds x="1420" y="130" width="200" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape_gw_phase3_continue" bpmnElement="gw_phase3_continue" isMarkerVisible="true">
+        <dc:Bounds x="1715" y="265" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1749" y="316" width="82" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="edge_start_to_create" bpmnElement="flow_start_to_create">
+        <di:waypoint x="218" y="510" />
+        <di:waypoint x="280" y="510" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_initial_assess_to_gw2_skip" bpmnElement="flow_initial_assess_to_gw2_skip">
+        <di:waypoint x="460" y="510" />
+        <di:waypoint x="525" y="510" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_skip2_no_to_wait2" bpmnElement="flow_skip2_no_to_wait2">
+        <di:waypoint x="550" y="485" />
+        <di:waypoint x="550" y="325" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="285" y="333" width="73" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_wait2_to_app_update" bpmnElement="flow_wait2_to_app_update">
+        <di:waypoint x="575" y="300" />
+        <di:waypoint x="670" y="300" />
+        <di:waypoint x="670" y="278" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_wait2_to_med_update" bpmnElement="flow_wait2_to_med_update">
+        <di:waypoint x="575" y="300" />
+        <di:waypoint x="670" y="300" />
+        <di:waypoint x="670" y="332" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_app_update_to_assess" bpmnElement="flow_app_update_to_assess">
+        <di:waypoint x="688" y="259" />
+        <di:waypoint x="724" y="259" />
+        <di:waypoint x="724" y="264" />
+        <di:waypoint x="750" y="264" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_med_update_to_assess" bpmnElement="flow_med_update_to_assess">
+        <di:waypoint x="688" y="349" />
+        <di:waypoint x="724" y="349" />
+        <di:waypoint x="724" y="354" />
+        <di:waypoint x="750" y="354" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_continue2_no_loop" bpmnElement="flow_continue2_no_loop">
+        <di:waypoint x="1040" y="265" />
+        <di:waypoint x="1040" y="180" />
+        <di:waypoint x="550" y="180" />
+        <di:waypoint x="550" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="550" y="95" width="71" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_skip3_no_to_wait3" bpmnElement="flow_skip3_no_to_wait3">
+        <di:waypoint x="1180" y="485" />
+        <di:waypoint x="1180" y="290" />
+        <di:waypoint x="1195" y="290" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="938" y="205" width="79" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_wait3_to_credit_update" bpmnElement="flow_wait3_to_credit_update">
+        <di:waypoint x="1220" y="265" />
+        <di:waypoint x="1220" y="170" />
+        <di:waypoint x="1332" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_wait3_to_criminal_update" bpmnElement="flow_wait3_to_criminal_update">
+        <di:waypoint x="1245" y="290" />
+        <di:waypoint x="1332" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_wait3_to_refs_update" bpmnElement="flow_wait3_to_refs_update">
+        <di:waypoint x="1220" y="315" />
+        <di:waypoint x="1220" y="390" />
+        <di:waypoint x="1332" y="390" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_criminal_update_to_assess" bpmnElement="flow_criminal_update_to_assess">
+        <di:waypoint x="1368" y="289" />
+        <di:waypoint x="1394" y="289" />
+        <di:waypoint x="1394" y="295" />
+        <di:waypoint x="1420" y="295" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_refs_update_to_assess" bpmnElement="flow_refs_update_to_assess">
+        <di:waypoint x="1368" y="389" />
+        <di:waypoint x="1389" y="389" />
+        <di:waypoint x="1389" y="395" />
+        <di:waypoint x="1410" y="395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_assess_credit_to_continue3" bpmnElement="flow_assess_credit_to_continue3">
+        <di:waypoint x="1620" y="170" />
+        <di:waypoint x="1740" y="170" />
+        <di:waypoint x="1740" y="265" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_assess_criminal_to_continue3" bpmnElement="flow_assess_criminal_to_continue3">
+        <di:waypoint x="1620" y="290" />
+        <di:waypoint x="1715" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_assess_refs_to_continue3" bpmnElement="flow_assess_refs_to_continue3">
+        <di:waypoint x="1630" y="366" />
+        <di:waypoint x="1700" y="350" />
+        <di:waypoint x="1730" y="305" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_ready_to_end" bpmnElement="flow_ready_to_end">
+        <di:waypoint x="1990" y="510" />
+        <di:waypoint x="2020" y="510" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1ofwpdi_di" bpmnElement="Flow_1ofwpdi">
+        <di:waypoint x="930" y="352" />
+        <di:waypoint x="1010" y="340" />
+        <di:waypoint x="1031" y="306" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_00n6h9p_di" bpmnElement="Flow_00n6h9p">
+        <di:waypoint x="930" y="260" />
+        <di:waypoint x="978" y="260" />
+        <di:waypoint x="978" y="290" />
+        <di:waypoint x="1015" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ipyage_di" bpmnElement="Flow_0ipyage">
+        <di:waypoint x="575" y="510" />
+        <di:waypoint x="1155" y="510" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="421" y="443" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1kewc5g_di" bpmnElement="Flow_1kewc5g">
+        <di:waypoint x="1040" y="315" />
+        <di:waypoint x="1040" y="490" />
+        <di:waypoint x="1170" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_04d8o1q_di" bpmnElement="Flow_04d8o1q">
+        <di:waypoint x="1368" y="170" />
+        <di:waypoint x="1420" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_06tpq93_di" bpmnElement="Flow_06tpq93">
+        <di:waypoint x="1205" y="510" />
+        <di:waypoint x="1790" y="510" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_19c5zm9_di" bpmnElement="Flow_19c5zm9">
+        <di:waypoint x="1740" y="315" />
+        <di:waypoint x="1740" y="480" />
+        <di:waypoint x="1790" y="480" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0y9wfjz_di" bpmnElement="Flow_0y9wfjz">
+        <di:waypoint x="1748" y="273" />
+        <di:waypoint x="1840" y="80" />
+        <di:waypoint x="1160" y="80" />
+        <di:waypoint x="1214" y="271" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

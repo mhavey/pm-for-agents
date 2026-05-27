@@ -1,0 +1,20 @@
+[project]
+name = "tmls2026-marketintel-graph"
+version = "0.1.0"
+description = "Strands graph (classify → retrieve → synth) research agent on AWS Bedrock AgentCore over an arXiv knowledge base, with OpenTelemetry tracing"
+requires-python = ">=3.13"
+dependencies = [
+    "strands-agents[otel]>=0.1.0",
+    "strands-agents-tools>=0.1.0",
+    "boto3>=1.40.47",
+    "botocore>=1.40.47",
+    "bedrock-agentcore>=0.1.7",
+    "bedrock-agentcore-starter-toolkit>=0.1.22",
+    "aws-opentelemetry-distro>=0.12.1",
+    "duckduckgo-search>=6.0.0",
+    "opensearch-py>=2.4.0",
+    "pypdf>=4.0.0",
+]
+
+[dependency-groups]
+dev = []
