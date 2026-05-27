@@ -1,5 +1,11 @@
 THIS IS EXTREMELY UNDER CONSTRUCTION AND SHOULD NOT EVEN BE READ... But it's here for 8 billion souls on earth to read for the time being
 
+TODO 
+- what's in the repo
+- how to deploy the agents
+- how to populate the knowledge base
+
+
 # tmls2026 — Process Mining over Agent Traces
 
 A research project: build agents on AWS Bedrock AgentCore, then analyze their execution behavior using process mining algorithms.
