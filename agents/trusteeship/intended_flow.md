@@ -1,3 +1,5 @@
+UNDER CONSTRUCTION
+
 # How `intended_flow.bpmn` was derived
 
 This BPMN captures the trusteeship-application flow in three phases. The previous version was a linear five-step happy path; you flagged it as too sequential and laid out a richer design — initial AI assessment, two event-driven loops with conditional skip gateways, and a terminal `mark_ready_for_court`. This document explains how that design lands in BPMN.

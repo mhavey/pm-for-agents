@@ -1,3 +1,5 @@
+UNDER CONSTRUCTION
+
 # How `intended_flow.bpmn` was derived
 
 This note captures the reasoning behind [intended_flow.bpmn](intended_flow.bpmn) — the BPMN reference model for the `research_react` agent's intended per-turn behavior. It's the document a process-mining conformance check will compare actual XES traces against, so the modeling choices matter.
