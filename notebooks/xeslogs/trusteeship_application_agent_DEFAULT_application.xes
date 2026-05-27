@@ -1,0 +1,3182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log xes.version="1.0" xmlns="http://www.xes-standard.org/">
+  <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+  <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+  <extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+  <extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+  <classifier name="Activity" keys="concept:name" />
+  <trace>
+    <string key="concept:name" value="b5865f12-ae96-433c-8293-8b89038f93a5" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:01:30.461+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="87687b6159608d82" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:01:35.807+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="7643a0b6239cc363" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:01:42.297+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5870d1e4d8a6b14b" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:01:47.273+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5b4b87cc5c97f879" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:01:52.808+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="95768ec2a4673ff9" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:01:57.755+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="50fae350bd179f2e" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:02:04.867+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="426b68f1b7c23c2a" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:02:04.867+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="426b68f1b7c23c2a" />
+      <string key="session_id" value="cbfd0af9-6c48-4644-b754-461266093ad4" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="6d3c463e-9eae-4c8b-862c-7756f73bdaea" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:57.223+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0230b982b5d86939" />
+      <string key="session_id" value="0cec37f3-4f9e-4f18-ae82-033f1a1dc69c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:00:04.801+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c7148545d491e07c" />
+      <string key="session_id" value="0cec37f3-4f9e-4f18-ae82-033f1a1dc69c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:00:11.422+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="174ed05129cf54dd" />
+      <string key="session_id" value="0cec37f3-4f9e-4f18-ae82-033f1a1dc69c" />
+    </event>
+    <event>
+      <string key="concept:name" value="reject_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T14:00:17.858+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f1a99fa0b8f98f91" />
+      <string key="session_id" value="0cec37f3-4f9e-4f18-ae82-033f1a1dc69c" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="80976030-5fa4-4ae3-a4f3-5519d4dde315" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:32.344+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="be4b0885fa5fb2c8" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:38.674+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0bece68780d9423e" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:44.166+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c7afb7faad0621b1" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:50.332+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a178773523f98793" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:56.054+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c5524d906b9d6524" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:01.966+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="bd779c56a5f52d0f" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:08.870+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a60c6bd91d24bac3" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:08.871+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a60c6bd91d24bac3" />
+      <string key="session_id" value="c7911f5d-bcd3-44bf-8f04-7e71a5965996" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="6a293a7b-cb66-4681-a7d3-45462ebbf9a5" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:55.637+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3467b4d1d7cf6742" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:02.612+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f391149cfecf4bd8" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:08.422+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ae1825c34f082486" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:15.117+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c6a5ec335f53d5ba" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:20.943+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="bfdd1ccff3bc0e54" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:27.713+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="59075401fd890a8f" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:27.713+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="59075401fd890a8f" />
+      <string key="session_id" value="69b01476-fd3d-4898-80b9-dbc88b7aad72" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="06b09694-80fa-4bb8-9bd1-27dbef7eecc7" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:45.969+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2d481ca837b41f1a" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:52.013+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c3f3381ad88adb28" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:58.308+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3fe0dafaef1de21a" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:04.664+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f71fcd614d3d887b" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:13.421+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="be5362fd918846c9" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:18.776+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="615140ee3acc6026" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:26.193+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4662a9dc8593264b" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:26.193+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4662a9dc8593264b" />
+      <string key="session_id" value="1d1e155d-d072-4180-8b45-b70b0fbab319" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3e8b35f0-220d-40b3-90cc-188d32e2b4be" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:25.629+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4e7f2337bd941c4e" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:32.413+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="dbbca5dd13ff7902" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:38.757+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="87401d39823d5e86" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:45.586+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="96a8fab7397e87f4" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:52.126+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c818816cd79a65ca" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:59.077+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1a9f42d8837f88b2" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:59.077+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1a9f42d8837f88b2" />
+      <string key="session_id" value="f146a2d9-c8f9-49cb-a658-7f74075a63bd" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2f9c7371-aee8-431c-87bd-776fd9d7fe49" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:37.006+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="7a58cf4ff07be83c" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:43.641+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b37681cd58668458" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:50.324+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cf0a4c5a7bd492b6" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:58.154+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="afa0b40defafb526" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:05.548+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8cd8407c6a745b5d" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:13.247+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9789265affe3520f" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:13.247+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9789265affe3520f" />
+      <string key="session_id" value="2f649c21-ce21-4cf7-9f13-b9acbe7b5048" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="7f69bd6d-a645-49b4-9e14-27d14de9f735" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:21.706+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8513a9beae9634dc" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:28.206+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="dfb5fb41e876bf6f" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:35.290+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="70debec5eb375de3" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:41.702+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f8b99321f8cdc8ab" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:47.390+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3f5d85f1b516cb96" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:54.026+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4e61994fcfa7ded6" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:54.026+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4e61994fcfa7ded6" />
+      <string key="session_id" value="0f28a928-00d5-4697-a284-4ae65e3c8594" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="9e1bd19c-0068-4ba4-8cb4-a0a267535fc0" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:46.715+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="88300fa94e0ef8f0" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:54.255+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="bcad8747f8a93e6a" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:59.514+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c3d21d542f5ddfb1" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:04.979+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cf2014882ad522ad" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:11.977+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6d8a56fc74b4b115" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:18.369+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fc440a30203c0fe1" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:25.600+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="eb3eacf2fdcb63fd" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:39:25.600+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="eb3eacf2fdcb63fd" />
+      <string key="session_id" value="0ae2476f-a117-4a93-b587-c5e282193d04" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1415cc5c-a22b-4f10-a926-65e79feffa62" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:34.190+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="775fe31ca421c1e8" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:40.198+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b655dfdcec7f98b4" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:46.913+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a07d77da21d3b676" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:53.965+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2b27efac1c9e5228" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:44:59.726+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="90345692341fd7dd" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:05.119+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e92a955687186433" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:12.155+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3d3615e9050144bc" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:12.155+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3d3615e9050144bc" />
+      <string key="session_id" value="538cb3f9-5b7e-4e7e-91a8-0f657db1ec27" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="4661e13c-6338-473f-b0ec-0006f5945c32" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:47.783+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ed2c2a376a1fef35" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:55.224+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5672563bb7b4869c" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:01.677+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a667698dfd1dc507" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:07.940+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="aab6570c833a1fb1" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:14.206+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c45a0cc41b60c019" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:20.422+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="10507717cc8e8dbd" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:27.638+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a8866d4c52c4b795" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:27.638+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a8866d4c52c4b795" />
+      <string key="session_id" value="79eed375-d99d-489f-b02f-d1fb4cce825b" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="505b53c7-1ab2-4ec7-bd5d-249611b74ed6" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:04.119+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b0a499b225d5ae1a" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:10.186+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f52504da39fa49d3" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:15.791+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4359f42e54d3e87a" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:22.041+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0396bdc80ed92eb3" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:27.658+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="7b9599be898a3325" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:34.391+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="83ed15da2da549d6" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:34.391+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="83ed15da2da549d6" />
+      <string key="session_id" value="1db12143-cf91-4b75-8a43-d7141061c467" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="fc1df5dc-a82e-4846-a0fe-76edff7f9b31" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:16.513+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="639bf61ec03cd97a" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:24.054+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="67161c5856426cfc" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:30.022+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fce6ad5817aa5b5e" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:36.786+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d5e8caa0472eef71" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:43.018+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d4409a5fe55a2be6" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:49.594+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f0844742b524532c" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:40:56.991+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d693e20fb8a3dbe5" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:04.187+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d298a660b3ce1973" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:04.187+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d298a660b3ce1973" />
+      <string key="session_id" value="da8acf82-646d-413f-aa33-97132ee39cd2" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="ae62e602-3b7a-4c13-b0e5-821c82ed7806" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:11.647+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9323f0c1daa08bc7" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:18.482+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="aa52519a58529394" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:24.545+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="28966acb35db8f05" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:31.212+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="11c07f3563d7e649" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:38.261+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="11715cb48cf95e1b" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:45.373+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e019bb5bcf2bdd06" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:52.386+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="09b606b6dc0e018e" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:58.706+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="61e39957a1e707bc" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:41:58.706+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="61e39957a1e707bc" />
+      <string key="session_id" value="0d5b4926-53c3-4152-81e7-88e64a54623c" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="7460d60d-cefc-4aa8-b130-54b702777edf" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:47.245+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="55c8ec5d9744ed42" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:54.811+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c1d086bca831b85d" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:02.232+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6b9b6745e6c66b59" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:08.648+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6c980e9e1de3a5c2" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:16.935+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4c71e35b40d4a4a1" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:24.565+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5663161d8b1a0907" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:24.565+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5663161d8b1a0907" />
+      <string key="session_id" value="0e74bf19-6783-4049-b198-ec480746a934" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="45bfa6ac-163d-4e5f-8015-337082a4a3ba" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:49.794+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="75ba334993fc0905" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:57.565+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="84a2b6e0b90f13c7" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:04.313+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a5ec55a003a0684a" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:11.115+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="23e23d0b370ef229" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:17.866+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="92ce92496088524a" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:24.725+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="456a91eaf09aa122" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:24.725+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="456a91eaf09aa122" />
+      <string key="session_id" value="d57e672e-04d2-4d5d-b67f-bf88e06b9ad9" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="bf60e57d-61d0-4405-aa94-5e23e5904730" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:33.837+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="af7ee6a062e7cf37" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:39.776+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="059102b3a856419f" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:44.835+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="85e8753271b657f5" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:51.170+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a66c947a3c36e8ba" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:53:56.550+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0ccddf551742a0f5" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:03.822+00:00" />
+      <float key="duration_s" value="0.002" />
+      <string key="trace_id" value="67adc35340b417ba" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:03.822+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="67adc35340b417ba" />
+      <string key="session_id" value="f82d16ed-0642-4762-a10f-d85400e391e2" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="e3979a2a-01da-4f25-82df-dd97142d36a0" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:07.728+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cf3613ef3c4af8b3" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:14.333+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b4f4c53bef41c984" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:20.093+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e5caf2a6c14dab66" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:26.591+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5d7eab7c9435e985" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:31.864+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6f2396be15cf94d3" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:38.459+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="88813c6929f10914" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:38.459+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="88813c6929f10914" />
+      <string key="session_id" value="fe03dd83-be6c-4f66-a911-ed0942bcce34" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3bde5e5a-8a23-45fd-85c7-4af99af31da7" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:02.055+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cf14646cd78b9e00" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:09.561+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="68677cfa4fa26d8d" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:18.864+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="779f41d4720af3ab" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:25.761+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="25b1eb0523ceb2fd" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:32.384+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ee9868881f017872" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:40.756+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f81578ee30edf88c" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:48.761+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c026ca43d7968203" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:22:48.761+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c026ca43d7968203" />
+      <string key="session_id" value="4c3f839d-e0dd-43f8-9717-e0504d91767e" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="ee7b9257-f3aa-475b-9a79-4c59b31e64e6" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:20.078+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="054e21f7c05c8a07" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:26.667+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8d8d97fff791f7ac" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:32.708+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d9c4b879941023a6" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:39.132+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ddaef52d296c6122" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:44.953+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="56f9634d025b7f76" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:51.983+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c89edaf48933e217" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:45:51.983+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c89edaf48933e217" />
+      <string key="session_id" value="df45ce4a-40a6-4cd8-ae9b-f518b640947e" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3f6f5718-5432-461b-9391-b2d38c7af779" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:39.534+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="83c5dadc97bf296b" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:45.464+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a4bf6772a65fbb0c" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:51.375+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0ff88cb03ec109e6" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:57.189+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b184ba50d05cb3b9" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:02.239+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8df3d795f36878d8" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:07.983+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1d97bfaec148f11e" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:15.115+00:00" />
+      <float key="duration_s" value="0.002" />
+      <string key="trace_id" value="926cfd740cbcbdf8" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:15.115+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="926cfd740cbcbdf8" />
+      <string key="session_id" value="2de508b1-00b8-427b-ba1f-ee2dad953bd3" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="f148899d-a223-4e02-be48-04dcc44ebf8d" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:14.719+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="550e466b74f24bda" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:21.359+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c61f600bf582b0d2" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:27.395+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0058aaa8cabc6f0a" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:45.529+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="eafab0bc98145a50" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:51.498+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6b7855dbfb82c958" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:57.263+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6db5c3449e02b394" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:04.684+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fbe2d8f846024e25" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:04.684+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fbe2d8f846024e25" />
+      <string key="session_id" value="8655f3f1-dfbd-44fe-ae89-486400e6fd92" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3af85dc5-8726-4b35-9af3-45c0bc027d74" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:57.742+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="641fe9ddd8323524" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:05.176+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9c7d55fac2f5db3c" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:12.071+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6f96ddd5f9dd9269" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:18.644+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8a09e9bc54df9105" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:24.080+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a28077638f3b83e3" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:30.278+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b6169cc53677dfcb" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:38.024+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="869e7b4f72504c6e" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:43:38.024+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="869e7b4f72504c6e" />
+      <string key="session_id" value="5e0462cd-9c79-4e1b-8077-293c6108fd55" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="dd7301ca-6eea-4db2-9e17-c5182912f33c" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:19.184+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e6f2f3f8ef17ba4f" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:26.121+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4a4f812ba3ad7305" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:32.769+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2bbd59730548427b" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:39.054+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cb5ec2073f4c5ca7" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:45.094+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="73755c8fc8c808c5" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:50.337+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d5f22dffe9fc33e1" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:00.370+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0f9ff5e682e2c9b7" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:00.370+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0f9ff5e682e2c9b7" />
+      <string key="session_id" value="c01858f6-78ed-4c9c-a221-45d852d4dbf3" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="76d77a19-aa82-4fe9-bcc8-f0ad2eb28445" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:43.797+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6bc9580af188ea74" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:50.360+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="54125106abce76bc" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:23:56.552+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cbe8740c4aadf29f" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:02.896+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="10a8f5af948906a1" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:08.998+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9970cb497a7e92d1" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:14.831+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2a40a7f1cb0ff63b" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:22.056+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="09a5b7c0a90d4fb8" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:24:22.056+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="09a5b7c0a90d4fb8" />
+      <string key="session_id" value="f7a13119-76b6-4ee4-90d8-1d1bb9978623" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2812bf7f-732c-4ad7-9919-658fcc02edfa" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:14.495+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="575f9b7221ab5deb" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:20.472+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1f11f5df9e10fd29" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:26.674+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e949306afa688aee" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:33.447+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="caabe952ff7258d8" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:39.532+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d5455bb64a1dd37f" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:46.873+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f5f8b02966b6b5c4" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:42:46.873+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f5f8b02966b6b5c4" />
+      <string key="session_id" value="7fdd76fc-1aea-4aeb-8060-45aa92093bca" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b0be9c5b-fbd6-4f21-a2f5-697d24819fe3" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:31.868+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1ff8f1327966ca84" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:38.202+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e7dd1fe66b93c3eb" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:45.839+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ba89281586a2aa05" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:53.707+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a6b8887da1ef6034" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:00.986+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="be416f12cc8e2369" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:08.466+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="23cd1e1966c5d7d9" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:16.072+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e33a76567759f0da" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:16.072+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e33a76567759f0da" />
+      <string key="session_id" value="63354206-4b1a-4858-9071-0b86f34627ce" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="e28fccdf-cce8-43f2-9312-81f7cf5b8748" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:08.259+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ce17ac900a884c5c" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:15.223+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4c1b22b07cb7d874" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:22.090+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="7877844ab4bfb966" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:31.833+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4c6c35e684d7c8d7" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:37.893+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="bb013cf7401e263a" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:44.406+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fd7c73739cd0eb3a" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:52.513+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1accf0fd0f7ff0db" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:58:52.513+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1accf0fd0f7ff0db" />
+      <string key="session_id" value="8f9bc698-4d0c-425e-9efe-49b99a75293b" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="c6f7c066-fa7b-49da-aa3f-b56f8deccc93" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:14.739+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="328d26a079237255" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:22.234+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5b1721d7a702f0d8" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:28.310+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="dd264942daa5e673" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:34.525+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a335f7b03960b5ab" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:40.369+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a9a844d49df1e522" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:46.631+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="1f14ece63f6073d9" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:52.819+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d800966b2c7c873c" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:59.858+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c0ce49ac0c007cc4" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:20:59.858+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c0ce49ac0c007cc4" />
+      <string key="session_id" value="91fe62c5-6c49-4732-84e1-bbbb0d00b51f" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="c1d7a1bb-6c41-4131-9b4f-4ad7fd6ddab8" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:27:15.663+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="aab19b85bbe731ae" />
+      <string key="session_id" value="0eb62834-e1a1-4e6c-96c9-ca665cb4e21b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:27:22.339+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="53b332e158bda512" />
+      <string key="session_id" value="0eb62834-e1a1-4e6c-96c9-ca665cb4e21b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:27:29.727+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3b4fcef097d3bacd" />
+      <string key="session_id" value="0eb62834-e1a1-4e6c-96c9-ca665cb4e21b" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:27:48.527+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5fb29316da97419d" />
+      <string key="session_id" value="0eb62834-e1a1-4e6c-96c9-ca665cb4e21b" />
+    </event>
+    <event>
+      <string key="concept:name" value="reject_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:27:54.439+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b62d85415226c808" />
+      <string key="session_id" value="0eb62834-e1a1-4e6c-96c9-ca665cb4e21b" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="555986cc-2849-4c5e-8c3d-f93127eaecf5" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:01.254+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="46a2a2757e051cf4" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:07.893+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c9f2b7a2edb866af" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:14.498+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6524adfd8532ab2a" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:20.577+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3b986487f5937035" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:27.263+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c5288de5d7c1d426" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:34.108+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d5e91eee5658e20c" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:41.482+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4f3da63974f8e5e1" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:59:41.482+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4f3da63974f8e5e1" />
+      <string key="session_id" value="d2a65f56-655c-4068-bfc1-6b4b74d41c65" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="706efae1-5f7e-4278-8aa1-43dc21589691" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:13.921+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8dfcd36c92d3b580" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:21.213+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f56e18d55af3e8b2" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:28.012+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6344d30051c8fb37" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:35.621+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ce57324e0994457b" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:42.226+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cc7a3b22816e78b8" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:50.487+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="11eddb9091fda294" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:50.487+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="11eddb9091fda294" />
+      <string key="session_id" value="a3e28971-949b-449a-b0be-efae776477fd" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="0c3adef5-5fe2-43aa-989d-4e09b235578f" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:12.128+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cf88fe463c38b09e" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:20.010+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9358c21672af6554" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:26.475+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e21e76397775d306" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:32.855+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="913e1c166c31f5f0" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:39.334+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8bfb69f061bb89f2" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:47.843+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="19e5002b33ce2c83" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:54:47.844+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="19e5002b33ce2c83" />
+      <string key="session_id" value="e42e4f12-2a33-4cd6-b533-1625d6c51105" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="4b9f5447-c72a-4dd0-9295-034a16e85805" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:07.921+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c1d87361fe13c53f" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:14.749+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d99ec954937ccd67" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:21.327+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4f05a4be222b8d24" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:28.328+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d314113c65696d34" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:34.481+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a72671863d3fe709" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:39.760+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4819b16fe9b5fc79" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:46.980+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f0e5b81b95b06c8d" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:21:46.980+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f0e5b81b95b06c8d" />
+      <string key="session_id" value="c0b5de08-4b3e-43fe-b8a3-c624d7c9a9e7" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="c38af5bd-d177-4a49-904e-0ad6d2f0d149" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:32.407+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d21c643561e69391" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:39.311+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e700626fd0748371" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:46.353+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="113a69b4fe06259f" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:52.968+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8011c1cf2a384ba5" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:30:58.920+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="591700b31eac5301" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:06.273+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="79024eaa7bd4f797" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:31:06.273+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="79024eaa7bd4f797" />
+      <string key="session_id" value="dc4ebe9d-37df-47ac-831f-0a20fdce98fc" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2c0976e6-6a7c-4a36-9378-26e1387fc9da" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:08.652+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="854a19786576411f" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:15.275+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="84ec8a43541a4270" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:21.935+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0914846afff70591" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:27.952+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="60e78ad82564e8f9" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:33.613+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0be612b6cd7783cd" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:39.117+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="264e2ea752a2ad8e" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:45.445+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ba7bcc48cc32fa6e" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:45.445+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ba7bcc48cc32fa6e" />
+      <string key="session_id" value="4dca4bb2-3c43-45f6-9f3e-5cc1f0039204" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="f7a403f0-fa25-4870-86f9-90397aef03d5" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:07.972+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="64ecfaa3a45eb8ca" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:15.263+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="50d2b27ad9a81fe9" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:21.202+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6df324c3540b75c2" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:26.874+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="66b4bf55fdb5d266" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:33.937+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a0f9c45a2188b5d3" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:41.396+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4989b84cb5b64e7f" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:52:41.396+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4989b84cb5b64e7f" />
+      <string key="session_id" value="6337833c-8aec-4eba-a150-b762b2adb796" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="d911f623-8d10-4dd4-aa0f-c90602e117d4" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:44.126+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2c33e24ce413afc8" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:50.530+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0dbff2d5640480c2" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:56.607+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e2d3add72b90467d" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:03.309+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="db59c8528b0df663" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:09.633+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0b5097df645e8e78" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:15.177+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="218a1470751d263b" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:22.573+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ba5b4bde285fb05a" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:22.574+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ba5b4bde285fb05a" />
+      <string key="session_id" value="9adc83a6-3db7-4a78-9fd1-166d4ba6aeb1" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="58c38db3-5c57-48b9-a80e-7da9dfbe86af" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:35.778+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4f24a7c34c7de203" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:41.442+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9f3b06530c93df91" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:47.704+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5d9ec0947b95d5bf" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:54.079+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="5c1be47a0c5a30fb" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:50:59.239+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cfae94feb8e7b4fb" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:04.522+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="cdc4496e3c395c06" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:13.660+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ac51871187e1ad1c" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:51:13.660+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ac51871187e1ad1c" />
+      <string key="session_id" value="4d8f982f-a0a2-4d3b-a838-2e861ff8a560" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="831bebc6-177d-4392-8b77-ff6cd7667992" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:35.101+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="804c5b18a721f0e4" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:40.386+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f427c6909fd319f0" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:46.060+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f57601ce9e87bce3" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:51.357+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="deee138e5f434cd4" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:55:56.774+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a58aad08080a4350" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:02.489+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e7a7797c0073fc55" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:09.669+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a614da2979ee8a6a" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:09.669+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a614da2979ee8a6a" />
+      <string key="session_id" value="3334a071-2445-4bc2-8a1d-a0c0ee0970db" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="5cfd21fd-6194-4fff-bbe1-38e60ec97639" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:23.087+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="21adf287415c23b0" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:29.863+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d648b4fabeea5f32" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:36.053+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d1a31bb743748a8f" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:42.283+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="570c0480cfac6a2f" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:50.073+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4687b5ae29a4d3a2" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:25:56.318+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0136546aeb5caaea" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:03.412+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8e88fd3ea8433ccd" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:26:03.412+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="8e88fd3ea8433ccd" />
+      <string key="session_id" value="531fe2c2-f9c7-4ac0-8d55-fcccd9b3eb4f" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="cce73678-46e9-43bb-a943-ff6846a33a8f" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:17.909+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="260522c4dd5dfd24" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:24.866+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9534352d880cbbf7" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:32.597+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3ed2e171b3e03bc9" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:50.454+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="568f25aa0441fdf8" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:56:56.866+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c33c7b4bd0f5cee6" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:03.328+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fb112390c3a5fc1b" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:10.439+00:00" />
+      <float key="duration_s" value="0.002" />
+      <string key="trace_id" value="99ddcb327b67e8c8" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:57:10.439+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="99ddcb327b67e8c8" />
+      <string key="session_id" value="f8ba5644-1665-456e-8ded-14a12e6c2888" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="4e137b51-ccd3-4001-b864-9a40a8451e08" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:20.581+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ce5d04e1e3cfb10f" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:27.057+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2384874253aba37d" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:45.630+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3ce066ef68f0adce" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:52.079+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fb2d3a9203f1fe0c" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:32:59.668+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="94410c6c2ea34797" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:06.548+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a154ad1703491f80" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:14.783+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ddafe1603456de49" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:33:14.783+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ddafe1603456de49" />
+      <string key="session_id" value="0ab7dcbb-85e8-4d40-9415-18cc033fda35" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1e8fb94e-adc0-4bab-88c7-3adf312a78d8" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:24.612+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f81a574ee0fe5192" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:31.624+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2ac4563927b8482f" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:38.886+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="2dcf345ced8ead2e" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:45.895+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="daf1130cb0bde03b" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:52.027+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="b48031112dab1539" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:59.291+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="478b64845260e64f" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:34:59.291+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="478b64845260e64f" />
+      <string key="session_id" value="3be9ecba-3323-4652-a98f-348d4a8b4418" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="f11673b8-2174-4e6d-b517-07f34eef617b" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:22.274+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="021f8e86ee745390" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:28.800+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ca96f7fd9b9afd92" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:34.741+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="73c842a758bd004e" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:41.396+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f55fcfb626173d6a" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:47.683+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="95621d779acbe19b" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:37:52.931+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="ef3ca1c42c537595" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:00.093+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="17dacb3a816cfa0a" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:38:00.093+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="17dacb3a816cfa0a" />
+      <string key="session_id" value="68b1d7c6-c1a3-4c8f-8b7c-617e5a2d8635" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="620cf088-5656-4d54-954d-229239e71cd0" />
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:37.254+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="519afcbcf32ba5a3" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:43.578+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="f1414e5d5ea0801b" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:52.247+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="058e130f60728f2b" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:47:58.850+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="187fe00626df3898" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:04.510+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="bbe79ee1f7390ed8" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:11.547+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="eb0a407d3b9a914d" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:48:11.548+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="eb0a407d3b9a914d" />
+      <string key="session_id" value="05398648-7add-43c5-8962-228503fe7dc5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="a70f22b7-9527-4ced-aeba-a27a6d658556" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:52.868+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="52b9ef8fe294a87a" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:35:59.668+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="6953ebe5854ac946" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:06.433+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="80c7a6ef16e9054a" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:12.404+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="9776541450950110" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:17.948+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a24cf0f37115e01e" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:24.618+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="4cec11e4b1eaf060" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:31.649+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="49588e4395553ec3" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:36:31.649+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="49588e4395553ec3" />
+      <string key="session_id" value="3cecd86e-42e6-4333-8edd-abe02c04cf4e" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="216a791a-fab8-4c95-a57b-cef86a483ee2" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:00.087+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="370b1d013ad9c0c4" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:07.791+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="235c7eb4aec261e6" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:14.107+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d5720834864e0586" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:21.999+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="edea6c3249fa412c" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:28.015+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="36342fd02e5e0c3c" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:35.758+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="131c7d60d983c99b" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:46:35.759+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="131c7d60d983c99b" />
+      <string key="session_id" value="dadf11e1-f398-44c8-8a45-52dc687b3239" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="4434822b-a67d-4d4f-9353-52eaf1de2e55" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:01.038+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="e8691c33efa69398" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:07.596+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3e9aca591724bebf" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:13.975+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="17c9de50a25aeb13" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:21.137+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="fbc45be68b99de5c" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:27.004+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="708ca994912f041d" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:32.952+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="39d4908ffcf34b94" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:39.503+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c4f44b2db08630b6" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:49:39.503+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="c4f44b2db08630b6" />
+      <string key="session_id" value="86840e25-4c61-4a3c-87d0-b9f7a7a92b17" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3d810647-7b6b-4287-b7f3-0a0a47a1b028" />
+    <event>
+      <string key="concept:name" value="assess_initial_state" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:28:46.569+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="140efded9c2b0333" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_application" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:28:52.942+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="3337187caf08d998" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:28:58.966+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="0b24d2b47ab95441" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_medical" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:05.018+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="d31ab03265f03d05" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_criminal_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:11.013+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="567738a56d4a4b9a" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_credit_check" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:16.151+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="a64962ea711f8031" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="assess_personal_references" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:35.099+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="47c23379ff114078" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+    <event>
+      <string key="concept:name" value="mark_ready_for_court" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-25T13:29:35.099+00:00" />
+      <float key="duration_s" value="0.001" />
+      <string key="trace_id" value="47c23379ff114078" />
+      <string key="session_id" value="5463aa13-5439-4587-86bc-ea8053cc55c0" />
+    </event>
+  </trace>
+</log>

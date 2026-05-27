@@ -1,0 +1,1027 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log xes.version="1.0" xmlns="http://www.xes-standard.org/">
+  <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+  <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+  <extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+  <extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+  <classifier name="Activity" keys="concept:name" />
+  <trace>
+    <string key="concept:name" value="d0551293-7686-4eff-878f-fb47252799d8" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:41:59.917+00:00" />
+      <float key="duration_s" value="0.601" />
+      <string key="trace_id" value="d0b8273595802a06" />
+      <string key="session_id" value="d0551293-7686-4eff-878f-fb47252799d8" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="592ee597-8218-45c4-88d8-03006dd8c5f2" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:44:37.951+00:00" />
+      <float key="duration_s" value="0.173" />
+      <string key="trace_id" value="4ad58d0c20083fa6" />
+      <string key="session_id" value="592ee597-8218-45c4-88d8-03006dd8c5f2" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:44:41.561+00:00" />
+      <float key="duration_s" value="0.433" />
+      <string key="trace_id" value="4ad58d0c20083fa6" />
+      <string key="session_id" value="592ee597-8218-45c4-88d8-03006dd8c5f2" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:44:52.369+00:00" />
+      <float key="duration_s" value="0.070" />
+      <string key="trace_id" value="64fcd86ea1dfc979" />
+      <string key="session_id" value="592ee597-8218-45c4-88d8-03006dd8c5f2" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:45:03.012+00:00" />
+      <float key="duration_s" value="0.360" />
+      <string key="trace_id" value="cf318f4792d47f52" />
+      <string key="session_id" value="592ee597-8218-45c4-88d8-03006dd8c5f2" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:45:43.815+00:00" />
+      <float key="duration_s" value="17.199" />
+      <string key="trace_id" value="411781cd3c53029b" />
+      <string key="session_id" value="592ee597-8218-45c4-88d8-03006dd8c5f2" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="e19be4f9-28c8-4e1c-ad34-3dc4f9bcf0fc" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:49:26.025+00:00" />
+      <float key="duration_s" value="0.180" />
+      <string key="trace_id" value="61ce549a4b930314" />
+      <string key="session_id" value="e19be4f9-28c8-4e1c-ad34-3dc4f9bcf0fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:49:36.440+00:00" />
+      <float key="duration_s" value="0.469" />
+      <string key="trace_id" value="20e88b2c455ceff2" />
+      <string key="session_id" value="e19be4f9-28c8-4e1c-ad34-3dc4f9bcf0fc" />
+    </event>
+    <event>
+      <string key="concept:name" value="web_search" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:49:41.610+00:00" />
+      <float key="duration_s" value="0.313" />
+      <string key="trace_id" value="20e88b2c455ceff2" />
+      <string key="session_id" value="e19be4f9-28c8-4e1c-ad34-3dc4f9bcf0fc" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b99b62e3-016e-48c6-bcf0-edd8ffbfed5d" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:47:48.321+00:00" />
+      <float key="duration_s" value="0.116" />
+      <string key="trace_id" value="d1d8c4dc15777f80" />
+      <string key="session_id" value="b99b62e3-016e-48c6-bcf0-edd8ffbfed5d" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:47:51.556+00:00" />
+      <float key="duration_s" value="0.432" />
+      <string key="trace_id" value="d1d8c4dc15777f80" />
+      <string key="session_id" value="b99b62e3-016e-48c6-bcf0-edd8ffbfed5d" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:48:04.046+00:00" />
+      <float key="duration_s" value="0.072" />
+      <string key="trace_id" value="21232a2bd0f2225b" />
+      <string key="session_id" value="b99b62e3-016e-48c6-bcf0-edd8ffbfed5d" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:48:15.781+00:00" />
+      <float key="duration_s" value="0.371" />
+      <string key="trace_id" value="9a4019130caa40c5" />
+      <string key="session_id" value="b99b62e3-016e-48c6-bcf0-edd8ffbfed5d" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:48:57.680+00:00" />
+      <float key="duration_s" value="16.894" />
+      <string key="trace_id" value="be7ee16ac1cda5d9" />
+      <string key="session_id" value="b99b62e3-016e-48c6-bcf0-edd8ffbfed5d" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:46:05.745+00:00" />
+      <float key="duration_s" value="0.167" />
+      <string key="trace_id" value="59a5d289d4416ebb" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:46:10.485+00:00" />
+      <float key="duration_s" value="0.461" />
+      <string key="trace_id" value="59a5d289d4416ebb" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:46:22.230+00:00" />
+      <float key="duration_s" value="0.056" />
+      <string key="trace_id" value="dce458499149e012" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:46:25.754+00:00" />
+      <float key="duration_s" value="0.362" />
+      <string key="trace_id" value="dce458499149e012" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:46:36.869+00:00" />
+      <float key="duration_s" value="0.002" />
+      <string key="trace_id" value="4a061e35571cf4e6" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:46:39.479+00:00" />
+      <float key="duration_s" value="0.338" />
+      <string key="trace_id" value="4a061e35571cf4e6" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:47:20.579+00:00" />
+      <float key="duration_s" value="15.668" />
+      <string key="trace_id" value="bc56432387b4db96" />
+      <string key="session_id" value="cf2ccaf9-4da4-44f2-a601-b2d7f0081bcd" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1815bba9-30ba-4b43-8bcb-7ae655041038" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:42:32.274+00:00" />
+      <float key="duration_s" value="0.182" />
+      <string key="trace_id" value="2207f51aa7deb27e" />
+      <string key="session_id" value="1815bba9-30ba-4b43-8bcb-7ae655041038" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:42:35.974+00:00" />
+      <float key="duration_s" value="0.472" />
+      <string key="trace_id" value="2207f51aa7deb27e" />
+      <string key="session_id" value="1815bba9-30ba-4b43-8bcb-7ae655041038" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:42:46.740+00:00" />
+      <float key="duration_s" value="0.053" />
+      <string key="trace_id" value="1094941d8dcfeb0f" />
+      <string key="session_id" value="1815bba9-30ba-4b43-8bcb-7ae655041038" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:42:55.855+00:00" />
+      <float key="duration_s" value="0.409" />
+      <string key="trace_id" value="ffff6125651ac81b" />
+      <string key="session_id" value="1815bba9-30ba-4b43-8bcb-7ae655041038" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:43:51.137+00:00" />
+      <float key="duration_s" value="18.178" />
+      <string key="trace_id" value="b1d2292acb4d8d45" />
+      <string key="session_id" value="1815bba9-30ba-4b43-8bcb-7ae655041038" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:38:43.821+00:00" />
+      <float key="duration_s" value="0.619" />
+      <string key="trace_id" value="18afba9df7836658" />
+      <string key="session_id" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:38:47.763+00:00" />
+      <float key="duration_s" value="0.395" />
+      <string key="trace_id" value="18afba9df7836658" />
+      <string key="session_id" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:38:56.821+00:00" />
+      <float key="duration_s" value="0.227" />
+      <string key="trace_id" value="90ed31c5d0cd4f54" />
+      <string key="session_id" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:39:01.570+00:00" />
+      <float key="duration_s" value="0.399" />
+      <string key="trace_id" value="90ed31c5d0cd4f54" />
+      <string key="session_id" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:39:01.675+00:00" />
+      <float key="duration_s" value="0.503" />
+      <string key="trace_id" value="90ed31c5d0cd4f54" />
+      <string key="session_id" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:39:01.678+00:00" />
+      <float key="duration_s" value="0.504" />
+      <string key="trace_id" value="90ed31c5d0cd4f54" />
+      <string key="session_id" value="77472a56-dcfc-451a-95eb-b1ef414bd139" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="6d00ad99-a7d9-47a0-af18-18134321b098" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:40:18.702+00:00" />
+      <float key="duration_s" value="0.209" />
+      <string key="trace_id" value="170eed03111c9cf3" />
+      <string key="session_id" value="6d00ad99-a7d9-47a0-af18-18134321b098" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:40:23.210+00:00" />
+      <float key="duration_s" value="0.464" />
+      <string key="trace_id" value="170eed03111c9cf3" />
+      <string key="session_id" value="6d00ad99-a7d9-47a0-af18-18134321b098" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:40:34.421+00:00" />
+      <float key="duration_s" value="0.050" />
+      <string key="trace_id" value="dc8c6dd74af6c647" />
+      <string key="session_id" value="6d00ad99-a7d9-47a0-af18-18134321b098" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:40:44.588+00:00" />
+      <float key="duration_s" value="0.411" />
+      <string key="trace_id" value="dbe2ebe7605935c1" />
+      <string key="session_id" value="6d00ad99-a7d9-47a0-af18-18134321b098" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:41:27.609+00:00" />
+      <float key="duration_s" value="18.016" />
+      <string key="trace_id" value="818cb692775b3e49" />
+      <string key="session_id" value="6d00ad99-a7d9-47a0-af18-18134321b098" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="bcf9a0e0-3aeb-4a18-bd22-73e77cf02a17" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-19T20:39:59.634+00:00" />
+      <float key="duration_s" value="0.537" />
+      <string key="trace_id" value="d6847117986998ea" />
+      <string key="session_id" value="bcf9a0e0-3aeb-4a18-bd22-73e77cf02a17" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:18.226+00:00" />
+      <float key="duration_s" value="0.517" />
+      <string key="trace_id" value="41a5fc053923ea2e" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:21.875+00:00" />
+      <float key="duration_s" value="0.281" />
+      <string key="trace_id" value="41a5fc053923ea2e" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:32.269+00:00" />
+      <float key="duration_s" value="0.200" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:35.452+00:00" />
+      <float key="duration_s" value="0.360" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:40.368+00:00" />
+      <float key="duration_s" value="0.339" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:40.398+00:00" />
+      <float key="duration_s" value="0.368" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:40.399+00:00" />
+      <float key="duration_s" value="0.365" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:47.081+00:00" />
+      <float key="duration_s" value="0.338" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:47.136+00:00" />
+      <float key="duration_s" value="0.393" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:47.139+00:00" />
+      <float key="duration_s" value="0.395" />
+      <string key="trace_id" value="dfccf3949028a736" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:05.577+00:00" />
+      <float key="duration_s" value="0.351" />
+      <string key="trace_id" value="c3e36c57b4d57d5a" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:10.196+00:00" />
+      <float key="duration_s" value="0.396" />
+      <string key="trace_id" value="c3e36c57b4d57d5a" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="web_search" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:14.538+00:00" />
+      <float key="duration_s" value="0.141" />
+      <string key="trace_id" value="c3e36c57b4d57d5a" />
+      <string key="session_id" value="b6b69ea7-bec6-4fd6-ac52-45d2d3d09aa8" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="4ac05c41-c77c-4225-aa68-33cfd5817b95" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:02:49.724+00:00" />
+      <float key="duration_s" value="0.179" />
+      <string key="trace_id" value="6a5d2fc964f0dca6" />
+      <string key="session_id" value="4ac05c41-c77c-4225-aa68-33cfd5817b95" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:01.033+00:00" />
+      <float key="duration_s" value="0.417" />
+      <string key="trace_id" value="a928855acf0a6f1c" />
+      <string key="session_id" value="4ac05c41-c77c-4225-aa68-33cfd5817b95" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:05.185+00:00" />
+      <float key="duration_s" value="0.406" />
+      <string key="trace_id" value="a928855acf0a6f1c" />
+      <string key="session_id" value="4ac05c41-c77c-4225-aa68-33cfd5817b95" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:09.325+00:00" />
+      <float key="duration_s" value="0.352" />
+      <string key="trace_id" value="a928855acf0a6f1c" />
+      <string key="session_id" value="4ac05c41-c77c-4225-aa68-33cfd5817b95" />
+    </event>
+    <event>
+      <string key="concept:name" value="web_search" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:13.995+00:00" />
+      <float key="duration_s" value="0.141" />
+      <string key="trace_id" value="a928855acf0a6f1c" />
+      <string key="session_id" value="4ac05c41-c77c-4225-aa68-33cfd5817b95" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="5e2bab0c-1f2a-4564-aa2c-2551942a1fc7" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:33.609+00:00" />
+      <float key="duration_s" value="0.172" />
+      <string key="trace_id" value="f8588b217e02901e" />
+      <string key="session_id" value="5e2bab0c-1f2a-4564-aa2c-2551942a1fc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:44.860+00:00" />
+      <float key="duration_s" value="0.463" />
+      <string key="trace_id" value="0515f8e77a1581a8" />
+      <string key="session_id" value="5e2bab0c-1f2a-4564-aa2c-2551942a1fc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:50.141+00:00" />
+      <float key="duration_s" value="0.357" />
+      <string key="trace_id" value="0515f8e77a1581a8" />
+      <string key="session_id" value="5e2bab0c-1f2a-4564-aa2c-2551942a1fc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:05:53.456+00:00" />
+      <float key="duration_s" value="0.378" />
+      <string key="trace_id" value="0515f8e77a1581a8" />
+      <string key="session_id" value="5e2bab0c-1f2a-4564-aa2c-2551942a1fc7" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="0dcc7788-2493-455c-a2eb-39c79baa00f0" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:00:41.114+00:00" />
+      <float key="duration_s" value="0.560" />
+      <string key="trace_id" value="adc4d9e9f30f6d60" />
+      <string key="session_id" value="0dcc7788-2493-455c-a2eb-39c79baa00f0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:05.091+00:00" />
+      <float key="duration_s" value="0.507" />
+      <string key="trace_id" value="4ed770faafed1b47" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:08.182+00:00" />
+      <float key="duration_s" value="0.002" />
+      <string key="trace_id" value="4ed770faafed1b47" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:11.548+00:00" />
+      <float key="duration_s" value="0.311" />
+      <string key="trace_id" value="4ed770faafed1b47" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:19.915+00:00" />
+      <float key="duration_s" value="0.137" />
+      <string key="trace_id" value="5c5bec231ad4120b" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:24.647+00:00" />
+      <float key="duration_s" value="0.336" />
+      <string key="trace_id" value="5c5bec231ad4120b" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:24.690+00:00" />
+      <float key="duration_s" value="0.379" />
+      <string key="trace_id" value="5c5bec231ad4120b" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:24.733+00:00" />
+      <float key="duration_s" value="0.419" />
+      <string key="trace_id" value="5c5bec231ad4120b" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:38.028+00:00" />
+      <float key="duration_s" value="0.437" />
+      <string key="trace_id" value="c8cc34a0dae7694f" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:42.021+00:00" />
+      <float key="duration_s" value="0.334" />
+      <string key="trace_id" value="c8cc34a0dae7694f" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:45.221+00:00" />
+      <float key="duration_s" value="0.366" />
+      <string key="trace_id" value="c8cc34a0dae7694f" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+    <event>
+      <string key="concept:name" value="web_search" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:06:50.456+00:00" />
+      <float key="duration_s" value="0.163" />
+      <string key="trace_id" value="c8cc34a0dae7694f" />
+      <string key="session_id" value="09eb9c3f-8faf-4ed5-9388-285f6aa4f405" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:26.030+00:00" />
+      <float key="duration_s" value="0.488" />
+      <string key="trace_id" value="ff4e4fd9fc7e75c6" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:30.125+00:00" />
+      <float key="duration_s" value="0.348" />
+      <string key="trace_id" value="ff4e4fd9fc7e75c6" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:39.219+00:00" />
+      <float key="duration_s" value="0.160" />
+      <string key="trace_id" value="59e99cd79bb868ac" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:42.837+00:00" />
+      <float key="duration_s" value="0.373" />
+      <string key="trace_id" value="59e99cd79bb868ac" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:54.264+00:00" />
+      <float key="duration_s" value="0.343" />
+      <string key="trace_id" value="ccc2a7db141b2df3" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:03:58.974+00:00" />
+      <float key="duration_s" value="0.336" />
+      <string key="trace_id" value="ccc2a7db141b2df3" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:02.617+00:00" />
+      <float key="duration_s" value="0.381" />
+      <string key="trace_id" value="ccc2a7db141b2df3" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+    <event>
+      <string key="concept:name" value="web_search" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:04:07.295+00:00" />
+      <float key="duration_s" value="0.189" />
+      <string key="trace_id" value="ccc2a7db141b2df3" />
+      <string key="session_id" value="a72d3912-1687-4278-9a39-99fb98f9ccd6" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:01:16.760+00:00" />
+      <float key="duration_s" value="0.175" />
+      <string key="trace_id" value="a225bdf42335fe97" />
+      <string key="session_id" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:01:19.936+00:00" />
+      <float key="duration_s" value="0.461" />
+      <string key="trace_id" value="a225bdf42335fe97" />
+      <string key="session_id" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:01:30.467+00:00" />
+      <float key="duration_s" value="0.057" />
+      <string key="trace_id" value="7f51fd8164c6c0f2" />
+      <string key="session_id" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:01:33.340+00:00" />
+      <float key="duration_s" value="0.384" />
+      <string key="trace_id" value="7f51fd8164c6c0f2" />
+      <string key="session_id" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:01:43.966+00:00" />
+      <float key="duration_s" value="0.377" />
+      <string key="trace_id" value="f5826288945650e3" />
+      <string key="session_id" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:02:24.303+00:00" />
+      <float key="duration_s" value="15.384" />
+      <string key="trace_id" value="d57038fe9de63554" />
+      <string key="session_id" value="876b5105-262a-4357-a57a-1bf99dbfeda1" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="ec3ec2ac-9aed-4160-a949-431147479f6a" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:59:19.343+00:00" />
+      <float key="duration_s" value="0.169" />
+      <string key="trace_id" value="d94724309670167a" />
+      <string key="session_id" value="ec3ec2ac-9aed-4160-a949-431147479f6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:59:22.999+00:00" />
+      <float key="duration_s" value="0.396" />
+      <string key="trace_id" value="d94724309670167a" />
+      <string key="session_id" value="ec3ec2ac-9aed-4160-a949-431147479f6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:59:33.952+00:00" />
+      <float key="duration_s" value="0.060" />
+      <string key="trace_id" value="b4c7720545e2519f" />
+      <string key="session_id" value="ec3ec2ac-9aed-4160-a949-431147479f6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:59:42.874+00:00" />
+      <float key="duration_s" value="0.311" />
+      <string key="trace_id" value="cc2b978df2d0d8c7" />
+      <string key="session_id" value="ec3ec2ac-9aed-4160-a949-431147479f6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T20:00:23.783+00:00" />
+      <float key="duration_s" value="16.050" />
+      <string key="trace_id" value="c481abf3986a0127" />
+      <string key="session_id" value="ec3ec2ac-9aed-4160-a949-431147479f6a" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="e6749615-a720-4322-9f58-661894a416e3" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:55:12.831+00:00" />
+      <float key="duration_s" value="0.172" />
+      <string key="trace_id" value="821245c81999125f" />
+      <string key="session_id" value="e6749615-a720-4322-9f58-661894a416e3" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:55:16.456+00:00" />
+      <float key="duration_s" value="0.404" />
+      <string key="trace_id" value="821245c81999125f" />
+      <string key="session_id" value="e6749615-a720-4322-9f58-661894a416e3" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:55:26.346+00:00" />
+      <float key="duration_s" value="0.067" />
+      <string key="trace_id" value="a0a0237a86f04fe5" />
+      <string key="session_id" value="e6749615-a720-4322-9f58-661894a416e3" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:55:35.327+00:00" />
+      <float key="duration_s" value="0.364" />
+      <string key="trace_id" value="1cfda3edd9cc704a" />
+      <string key="session_id" value="e6749615-a720-4322-9f58-661894a416e3" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:57:16.717+00:00" />
+      <float key="duration_s" value="15.925" />
+      <string key="trace_id" value="4c57b2787d279010" />
+      <string key="session_id" value="e6749615-a720-4322-9f58-661894a416e3" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:26.747+00:00" />
+      <float key="duration_s" value="0.418" />
+      <string key="trace_id" value="144baa22ee87a137" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:30.420+00:00" />
+      <float key="duration_s" value="0.390" />
+      <string key="trace_id" value="144baa22ee87a137" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:39.243+00:00" />
+      <float key="duration_s" value="0.164" />
+      <string key="trace_id" value="fb5bfb4fb8f12873" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:44.143+00:00" />
+      <float key="duration_s" value="0.426" />
+      <string key="trace_id" value="fb5bfb4fb8f12873" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:44.145+00:00" />
+      <float key="duration_s" value="0.426" />
+      <string key="trace_id" value="fb5bfb4fb8f12873" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:44.185+00:00" />
+      <float key="duration_s" value="0.468" />
+      <string key="trace_id" value="fb5bfb4fb8f12873" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:57.547+00:00" />
+      <float key="duration_s" value="0.385" />
+      <string key="trace_id" value="06df5b2f4eaf8bb3" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:53:02.207+00:00" />
+      <float key="duration_s" value="0.430" />
+      <string key="trace_id" value="06df5b2f4eaf8bb3" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:53:07.512+00:00" />
+      <float key="duration_s" value="0.364" />
+      <string key="trace_id" value="06df5b2f4eaf8bb3" />
+      <string key="session_id" value="0520f90b-3efd-4e3f-b238-1e0cedcc17d4" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="d522a876-1ea8-41f4-a716-9dc098014275" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:58:31.493+00:00" />
+      <float key="duration_s" value="0.452" />
+      <string key="trace_id" value="b99b62819d41a70b" />
+      <string key="session_id" value="d522a876-1ea8-41f4-a716-9dc098014275" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="8005cad4-7923-42d0-9334-fd8f780ff5c1" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:57:57.044+00:00" />
+      <float key="duration_s" value="0.191" />
+      <string key="trace_id" value="65eb7b174e9e9acf" />
+      <string key="session_id" value="8005cad4-7923-42d0-9334-fd8f780ff5c1" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:58:08.445+00:00" />
+      <float key="duration_s" value="0.450" />
+      <string key="trace_id" value="71895dc1729c7e48" />
+      <string key="session_id" value="8005cad4-7923-42d0-9334-fd8f780ff5c1" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:58:13.646+00:00" />
+      <float key="duration_s" value="0.409" />
+      <string key="trace_id" value="71895dc1729c7e48" />
+      <string key="session_id" value="8005cad4-7923-42d0-9334-fd8f780ff5c1" />
+    </event>
+    <event>
+      <string key="concept:name" value="web_search" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:58:18.063+00:00" />
+      <float key="duration_s" value="0.174" />
+      <string key="trace_id" value="71895dc1729c7e48" />
+      <string key="session_id" value="8005cad4-7923-42d0-9334-fd8f780ff5c1" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="042b79a6-14eb-4e1b-b21f-12f4d85114a2" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:58:59.336+00:00" />
+      <float key="duration_s" value="0.474" />
+      <string key="trace_id" value="c54b8a3e9e33a4b7" />
+      <string key="session_id" value="042b79a6-14eb-4e1b-b21f-12f4d85114a2" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="53e3225d-88e2-469c-9fc7-39e198cc807d" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:58:46.064+00:00" />
+      <float key="duration_s" value="0.491" />
+      <string key="trace_id" value="7948cfd19d663488" />
+      <string key="session_id" value="53e3225d-88e2-469c-9fc7-39e198cc807d" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b183af36-4819-41f1-a308-a20cb651f742" />
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:53:22.583+00:00" />
+      <float key="duration_s" value="0.162" />
+      <string key="trace_id" value="cfdea6d38cf8c101" />
+      <string key="session_id" value="b183af36-4819-41f1-a308-a20cb651f742" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:53:26.248+00:00" />
+      <float key="duration_s" value="0.427" />
+      <string key="trace_id" value="cfdea6d38cf8c101" />
+      <string key="session_id" value="b183af36-4819-41f1-a308-a20cb651f742" />
+    </event>
+    <event>
+      <string key="concept:name" value="sample_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:53:36.152+00:00" />
+      <float key="duration_s" value="0.086" />
+      <string key="trace_id" value="c054260e5c628e10" />
+      <string key="session_id" value="b183af36-4819-41f1-a308-a20cb651f742" />
+    </event>
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:53:46.505+00:00" />
+      <float key="duration_s" value="0.439" />
+      <string key="trace_id" value="21523f4da5facd25" />
+      <string key="session_id" value="b183af36-4819-41f1-a308-a20cb651f742" />
+    </event>
+    <event>
+      <string key="concept:name" value="analyze_full_article" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:54:36.705+00:00" />
+      <float key="duration_s" value="19.157" />
+      <string key="trace_id" value="e5ffc788ec54372b" />
+      <string key="session_id" value="b183af36-4819-41f1-a308-a20cb651f742" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="e73fcafe-f6bc-4195-8d7f-f641c35d48db" />
+    <event>
+      <string key="concept:name" value="find_similar_articles" />
+      <string key="org:resource" value="joecool" />
+      <date key="time:timestamp" value="2026-05-20T19:52:03.483+00:00" />
+      <float key="duration_s" value="0.582" />
+      <string key="trace_id" value="e94e95d87c595c23" />
+      <string key="session_id" value="e73fcafe-f6bc-4195-8d7f-f641c35d48db" />
+    </event>
+  </trace>
+</log>

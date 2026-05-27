@@ -1,0 +1,1182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log xes.version="1.0" xmlns="http://www.xes-standard.org/">
+  <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+  <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+  <extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+  <extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+  <classifier name="Activity" keys="concept:name" />
+  <trace>
+    <string key="concept:name" value="becfdca21d81a1ef" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:56.649+00:00" />
+      <float key="duration_s" value="1.200" />
+      <string key="trace_id" value="becfdca21d81a1ef" />
+      <string key="session_id" value="6719150f-dba2-404d-9a96-434693c8f479" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:59.747+00:00" />
+      <float key="duration_s" value="3.098" />
+      <string key="trace_id" value="becfdca21d81a1ef" />
+      <string key="session_id" value="6719150f-dba2-404d-9a96-434693c8f479" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="a58d15eb55641300" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:11.494+00:00" />
+      <float key="duration_s" value="1.783" />
+      <string key="trace_id" value="a58d15eb55641300" />
+      <string key="session_id" value="21bb86c8-3e5c-49bd-a0da-afa460db756a" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:13.411+00:00" />
+      <float key="duration_s" value="1.916" />
+      <string key="trace_id" value="a58d15eb55641300" />
+      <string key="session_id" value="21bb86c8-3e5c-49bd-a0da-afa460db756a" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:15.063+00:00" />
+      <float key="duration_s" value="1.652" />
+      <string key="trace_id" value="a58d15eb55641300" />
+      <string key="session_id" value="21bb86c8-3e5c-49bd-a0da-afa460db756a" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:16.672+00:00" />
+      <float key="duration_s" value="1.609" />
+      <string key="trace_id" value="a58d15eb55641300" />
+      <string key="session_id" value="21bb86c8-3e5c-49bd-a0da-afa460db756a" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:20.358+00:00" />
+      <float key="duration_s" value="3.686" />
+      <string key="trace_id" value="a58d15eb55641300" />
+      <string key="session_id" value="21bb86c8-3e5c-49bd-a0da-afa460db756a" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1ddd8bdbb3fab47c" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:37.258+00:00" />
+      <float key="duration_s" value="1.650" />
+      <string key="trace_id" value="1ddd8bdbb3fab47c" />
+      <string key="session_id" value="4dd7eba3-447a-4bd5-8005-b22a3ae5fe5a" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:39.529+00:00" />
+      <float key="duration_s" value="2.271" />
+      <string key="trace_id" value="1ddd8bdbb3fab47c" />
+      <string key="session_id" value="4dd7eba3-447a-4bd5-8005-b22a3ae5fe5a" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:41.197+00:00" />
+      <float key="duration_s" value="1.668" />
+      <string key="trace_id" value="1ddd8bdbb3fab47c" />
+      <string key="session_id" value="4dd7eba3-447a-4bd5-8005-b22a3ae5fe5a" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:44.421+00:00" />
+      <float key="duration_s" value="3.224" />
+      <string key="trace_id" value="1ddd8bdbb3fab47c" />
+      <string key="session_id" value="4dd7eba3-447a-4bd5-8005-b22a3ae5fe5a" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="91f76e50cb71611f" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:37.141+00:00" />
+      <float key="duration_s" value="1.538" />
+      <string key="trace_id" value="91f76e50cb71611f" />
+      <string key="session_id" value="3cc0aa10-7bf6-4dd2-a4b4-840a7622d5b0" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:39.314+00:00" />
+      <float key="duration_s" value="2.172" />
+      <string key="trace_id" value="91f76e50cb71611f" />
+      <string key="session_id" value="3cc0aa10-7bf6-4dd2-a4b4-840a7622d5b0" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:40.978+00:00" />
+      <float key="duration_s" value="1.663" />
+      <string key="trace_id" value="91f76e50cb71611f" />
+      <string key="session_id" value="3cc0aa10-7bf6-4dd2-a4b4-840a7622d5b0" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:45.151+00:00" />
+      <float key="duration_s" value="4.173" />
+      <string key="trace_id" value="91f76e50cb71611f" />
+      <string key="session_id" value="3cc0aa10-7bf6-4dd2-a4b4-840a7622d5b0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="ce395585264e5b98" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:12.797+00:00" />
+      <float key="duration_s" value="1.662" />
+      <string key="trace_id" value="ce395585264e5b98" />
+      <string key="session_id" value="4a83d2ed-808f-4e06-a1fa-099dbb8de0da" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:14.673+00:00" />
+      <float key="duration_s" value="1.876" />
+      <string key="trace_id" value="ce395585264e5b98" />
+      <string key="session_id" value="4a83d2ed-808f-4e06-a1fa-099dbb8de0da" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:16.258+00:00" />
+      <float key="duration_s" value="1.585" />
+      <string key="trace_id" value="ce395585264e5b98" />
+      <string key="session_id" value="4a83d2ed-808f-4e06-a1fa-099dbb8de0da" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:19.478+00:00" />
+      <float key="duration_s" value="3.219" />
+      <string key="trace_id" value="ce395585264e5b98" />
+      <string key="session_id" value="4a83d2ed-808f-4e06-a1fa-099dbb8de0da" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="189755201b8e3b67" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:32.534+00:00" />
+      <float key="duration_s" value="1.742" />
+      <string key="trace_id" value="189755201b8e3b67" />
+      <string key="session_id" value="fd0b3878-a4e5-495a-8a6a-0768ba08ae71" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:34.684+00:00" />
+      <float key="duration_s" value="2.150" />
+      <string key="trace_id" value="189755201b8e3b67" />
+      <string key="session_id" value="fd0b3878-a4e5-495a-8a6a-0768ba08ae71" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:36.257+00:00" />
+      <float key="duration_s" value="1.573" />
+      <string key="trace_id" value="189755201b8e3b67" />
+      <string key="session_id" value="fd0b3878-a4e5-495a-8a6a-0768ba08ae71" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:39.647+00:00" />
+      <float key="duration_s" value="3.389" />
+      <string key="trace_id" value="189755201b8e3b67" />
+      <string key="session_id" value="fd0b3878-a4e5-495a-8a6a-0768ba08ae71" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18afa06b9cb5e461" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:24.928+00:00" />
+      <float key="duration_s" value="1.652" />
+      <string key="trace_id" value="18afa06b9cb5e461" />
+      <string key="session_id" value="9127c7f4-acd2-483a-a0c9-159c39abee97" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:27.103+00:00" />
+      <float key="duration_s" value="2.174" />
+      <string key="trace_id" value="18afa06b9cb5e461" />
+      <string key="session_id" value="9127c7f4-acd2-483a-a0c9-159c39abee97" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:29.840+00:00" />
+      <float key="duration_s" value="2.737" />
+      <string key="trace_id" value="18afa06b9cb5e461" />
+      <string key="session_id" value="9127c7f4-acd2-483a-a0c9-159c39abee97" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:31.416+00:00" />
+      <float key="duration_s" value="1.576" />
+      <string key="trace_id" value="18afa06b9cb5e461" />
+      <string key="session_id" value="9127c7f4-acd2-483a-a0c9-159c39abee97" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:34.508+00:00" />
+      <float key="duration_s" value="3.091" />
+      <string key="trace_id" value="18afa06b9cb5e461" />
+      <string key="session_id" value="9127c7f4-acd2-483a-a0c9-159c39abee97" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="c68a4a37dfefdc7a" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:47.621+00:00" />
+      <float key="duration_s" value="1.411" />
+      <string key="trace_id" value="c68a4a37dfefdc7a" />
+      <string key="session_id" value="683a78c8-87b2-4b04-b9a1-40bfd5b6d62d" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:49.797+00:00" />
+      <float key="duration_s" value="2.176" />
+      <string key="trace_id" value="c68a4a37dfefdc7a" />
+      <string key="session_id" value="683a78c8-87b2-4b04-b9a1-40bfd5b6d62d" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:52.552+00:00" />
+      <float key="duration_s" value="2.755" />
+      <string key="trace_id" value="c68a4a37dfefdc7a" />
+      <string key="session_id" value="683a78c8-87b2-4b04-b9a1-40bfd5b6d62d" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:54.204+00:00" />
+      <float key="duration_s" value="1.651" />
+      <string key="trace_id" value="c68a4a37dfefdc7a" />
+      <string key="session_id" value="683a78c8-87b2-4b04-b9a1-40bfd5b6d62d" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:57.703+00:00" />
+      <float key="duration_s" value="3.498" />
+      <string key="trace_id" value="c68a4a37dfefdc7a" />
+      <string key="session_id" value="683a78c8-87b2-4b04-b9a1-40bfd5b6d62d" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="4291ba79a291b527" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:00.226+00:00" />
+      <float key="duration_s" value="1.469" />
+      <string key="trace_id" value="4291ba79a291b527" />
+      <string key="session_id" value="e1b6f497-9994-44db-9c74-561494eeb37f" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:02.439+00:00" />
+      <float key="duration_s" value="2.212" />
+      <string key="trace_id" value="4291ba79a291b527" />
+      <string key="session_id" value="e1b6f497-9994-44db-9c74-561494eeb37f" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:04.019+00:00" />
+      <float key="duration_s" value="1.581" />
+      <string key="trace_id" value="4291ba79a291b527" />
+      <string key="session_id" value="e1b6f497-9994-44db-9c74-561494eeb37f" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:05.700+00:00" />
+      <float key="duration_s" value="1.681" />
+      <string key="trace_id" value="4291ba79a291b527" />
+      <string key="session_id" value="e1b6f497-9994-44db-9c74-561494eeb37f" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:08.248+00:00" />
+      <float key="duration_s" value="2.547" />
+      <string key="trace_id" value="4291ba79a291b527" />
+      <string key="session_id" value="e1b6f497-9994-44db-9c74-561494eeb37f" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="da33b79c670c47fe" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:23.087+00:00" />
+      <float key="duration_s" value="1.631" />
+      <string key="trace_id" value="da33b79c670c47fe" />
+      <string key="session_id" value="8be13e33-6058-4c85-b06b-593e30572d44" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:25.063+00:00" />
+      <float key="duration_s" value="1.976" />
+      <string key="trace_id" value="da33b79c670c47fe" />
+      <string key="session_id" value="8be13e33-6058-4c85-b06b-593e30572d44" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:26.796+00:00" />
+      <float key="duration_s" value="1.733" />
+      <string key="trace_id" value="da33b79c670c47fe" />
+      <string key="session_id" value="8be13e33-6058-4c85-b06b-593e30572d44" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:29.830+00:00" />
+      <float key="duration_s" value="3.034" />
+      <string key="trace_id" value="da33b79c670c47fe" />
+      <string key="session_id" value="8be13e33-6058-4c85-b06b-593e30572d44" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="66a3483052537d34" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:22.081+00:00" />
+      <float key="duration_s" value="1.672" />
+      <string key="trace_id" value="66a3483052537d34" />
+      <string key="session_id" value="dccaf8fd-b94b-4b1f-8e32-0a74c10bffa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:24.093+00:00" />
+      <float key="duration_s" value="2.012" />
+      <string key="trace_id" value="66a3483052537d34" />
+      <string key="session_id" value="dccaf8fd-b94b-4b1f-8e32-0a74c10bffa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:25.878+00:00" />
+      <float key="duration_s" value="1.785" />
+      <string key="trace_id" value="66a3483052537d34" />
+      <string key="session_id" value="dccaf8fd-b94b-4b1f-8e32-0a74c10bffa8" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:28.829+00:00" />
+      <float key="duration_s" value="2.950" />
+      <string key="trace_id" value="66a3483052537d34" />
+      <string key="session_id" value="dccaf8fd-b94b-4b1f-8e32-0a74c10bffa8" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="c267dbad6c78c0c4" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:21:10.788+00:00" />
+      <float key="duration_s" value="1.582" />
+      <string key="trace_id" value="c267dbad6c78c0c4" />
+      <string key="session_id" value="df4b8e8e-a3d1-4cd7-8ed6-aa8f76bd722d" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:21:12.698+00:00" />
+      <float key="duration_s" value="1.910" />
+      <string key="trace_id" value="c267dbad6c78c0c4" />
+      <string key="session_id" value="df4b8e8e-a3d1-4cd7-8ed6-aa8f76bd722d" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:21:14.381+00:00" />
+      <float key="duration_s" value="1.683" />
+      <string key="trace_id" value="c267dbad6c78c0c4" />
+      <string key="session_id" value="df4b8e8e-a3d1-4cd7-8ed6-aa8f76bd722d" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:21:16.158+00:00" />
+      <float key="duration_s" value="1.777" />
+      <string key="trace_id" value="c267dbad6c78c0c4" />
+      <string key="session_id" value="df4b8e8e-a3d1-4cd7-8ed6-aa8f76bd722d" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:21:18.055+00:00" />
+      <float key="duration_s" value="1.897" />
+      <string key="trace_id" value="c267dbad6c78c0c4" />
+      <string key="session_id" value="df4b8e8e-a3d1-4cd7-8ed6-aa8f76bd722d" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="867ba5941ba9595e" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:22.344+00:00" />
+      <float key="duration_s" value="2.049" />
+      <string key="trace_id" value="867ba5941ba9595e" />
+      <string key="session_id" value="fee2b2a2-9e23-4974-ba26-a18b342a9d05" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:24.692+00:00" />
+      <float key="duration_s" value="2.347" />
+      <string key="trace_id" value="867ba5941ba9595e" />
+      <string key="session_id" value="fee2b2a2-9e23-4974-ba26-a18b342a9d05" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:26.500+00:00" />
+      <float key="duration_s" value="1.807" />
+      <string key="trace_id" value="867ba5941ba9595e" />
+      <string key="session_id" value="fee2b2a2-9e23-4974-ba26-a18b342a9d05" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:29.168+00:00" />
+      <float key="duration_s" value="2.667" />
+      <string key="trace_id" value="867ba5941ba9595e" />
+      <string key="session_id" value="fee2b2a2-9e23-4974-ba26-a18b342a9d05" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b8b2f3889b75b05e" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:47.346+00:00" />
+      <float key="duration_s" value="1.161" />
+      <string key="trace_id" value="b8b2f3889b75b05e" />
+      <string key="session_id" value="f44f5dc5-d906-46d2-8ba4-b28277c3b63c" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:49.173+00:00" />
+      <float key="duration_s" value="1.827" />
+      <string key="trace_id" value="b8b2f3889b75b05e" />
+      <string key="session_id" value="f44f5dc5-d906-46d2-8ba4-b28277c3b63c" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:50.895+00:00" />
+      <float key="duration_s" value="1.722" />
+      <string key="trace_id" value="b8b2f3889b75b05e" />
+      <string key="session_id" value="f44f5dc5-d906-46d2-8ba4-b28277c3b63c" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:53.513+00:00" />
+      <float key="duration_s" value="2.617" />
+      <string key="trace_id" value="b8b2f3889b75b05e" />
+      <string key="session_id" value="f44f5dc5-d906-46d2-8ba4-b28277c3b63c" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="9e4c7161713be863" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:01.252+00:00" />
+      <float key="duration_s" value="1.263" />
+      <string key="trace_id" value="9e4c7161713be863" />
+      <string key="session_id" value="1da93d16-7775-4314-994a-40f2d42028e0" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:04.105+00:00" />
+      <float key="duration_s" value="2.853" />
+      <string key="trace_id" value="9e4c7161713be863" />
+      <string key="session_id" value="1da93d16-7775-4314-994a-40f2d42028e0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="70511926406bc1f8" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:01.504+00:00" />
+      <float key="duration_s" value="1.965" />
+      <string key="trace_id" value="70511926406bc1f8" />
+      <string key="session_id" value="68b0690e-c4e5-49bc-9dc1-880516d72422" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:03.261+00:00" />
+      <float key="duration_s" value="1.756" />
+      <string key="trace_id" value="70511926406bc1f8" />
+      <string key="session_id" value="68b0690e-c4e5-49bc-9dc1-880516d72422" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:05.001+00:00" />
+      <float key="duration_s" value="1.740" />
+      <string key="trace_id" value="70511926406bc1f8" />
+      <string key="session_id" value="68b0690e-c4e5-49bc-9dc1-880516d72422" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:08.740+00:00" />
+      <float key="duration_s" value="3.739" />
+      <string key="trace_id" value="70511926406bc1f8" />
+      <string key="session_id" value="68b0690e-c4e5-49bc-9dc1-880516d72422" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="71c337c481e62eeb" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:51.575+00:00" />
+      <float key="duration_s" value="1.639" />
+      <string key="trace_id" value="71c337c481e62eeb" />
+      <string key="session_id" value="98e18427-ecc8-4051-914a-8ba10804352e" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:53.585+00:00" />
+      <float key="duration_s" value="2.010" />
+      <string key="trace_id" value="71c337c481e62eeb" />
+      <string key="session_id" value="98e18427-ecc8-4051-914a-8ba10804352e" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:55.273+00:00" />
+      <float key="duration_s" value="1.687" />
+      <string key="trace_id" value="71c337c481e62eeb" />
+      <string key="session_id" value="98e18427-ecc8-4051-914a-8ba10804352e" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:57.032+00:00" />
+      <float key="duration_s" value="1.758" />
+      <string key="trace_id" value="71c337c481e62eeb" />
+      <string key="session_id" value="98e18427-ecc8-4051-914a-8ba10804352e" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:00.323+00:00" />
+      <float key="duration_s" value="3.291" />
+      <string key="trace_id" value="71c337c481e62eeb" />
+      <string key="session_id" value="98e18427-ecc8-4051-914a-8ba10804352e" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="ac7f7af2cbb8bec7" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:51.517+00:00" />
+      <float key="duration_s" value="1.681" />
+      <string key="trace_id" value="ac7f7af2cbb8bec7" />
+      <string key="session_id" value="bcf65012-c120-492f-9943-0e10dc526ce9" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:53.970+00:00" />
+      <float key="duration_s" value="2.452" />
+      <string key="trace_id" value="ac7f7af2cbb8bec7" />
+      <string key="session_id" value="bcf65012-c120-492f-9943-0e10dc526ce9" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:55.592+00:00" />
+      <float key="duration_s" value="1.622" />
+      <string key="trace_id" value="ac7f7af2cbb8bec7" />
+      <string key="session_id" value="bcf65012-c120-492f-9943-0e10dc526ce9" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:58.590+00:00" />
+      <float key="duration_s" value="2.998" />
+      <string key="trace_id" value="ac7f7af2cbb8bec7" />
+      <string key="session_id" value="bcf65012-c120-492f-9943-0e10dc526ce9" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b8eb86464dbd99ed" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:24:00.852+00:00" />
+      <float key="duration_s" value="1.672" />
+      <string key="trace_id" value="b8eb86464dbd99ed" />
+      <string key="session_id" value="ff5c3ab9-8aa3-464a-bdac-f7e79278a397" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:24:02.580+00:00" />
+      <float key="duration_s" value="1.727" />
+      <string key="trace_id" value="b8eb86464dbd99ed" />
+      <string key="session_id" value="ff5c3ab9-8aa3-464a-bdac-f7e79278a397" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:24:04.615+00:00" />
+      <float key="duration_s" value="2.035" />
+      <string key="trace_id" value="b8eb86464dbd99ed" />
+      <string key="session_id" value="ff5c3ab9-8aa3-464a-bdac-f7e79278a397" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:24:06.311+00:00" />
+      <float key="duration_s" value="1.696" />
+      <string key="trace_id" value="b8eb86464dbd99ed" />
+      <string key="session_id" value="ff5c3ab9-8aa3-464a-bdac-f7e79278a397" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:24:09.508+00:00" />
+      <float key="duration_s" value="3.196" />
+      <string key="trace_id" value="b8eb86464dbd99ed" />
+      <string key="session_id" value="ff5c3ab9-8aa3-464a-bdac-f7e79278a397" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="a64bdec9b8394819" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:07.695+00:00" />
+      <float key="duration_s" value="1.289" />
+      <string key="trace_id" value="a64bdec9b8394819" />
+      <string key="session_id" value="83176698-71b6-4771-b433-38f6bd12ac22" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:10.316+00:00" />
+      <float key="duration_s" value="2.621" />
+      <string key="trace_id" value="a64bdec9b8394819" />
+      <string key="session_id" value="83176698-71b6-4771-b433-38f6bd12ac22" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="0d543239aa09f8f3" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:17.647+00:00" />
+      <float key="duration_s" value="1.334" />
+      <string key="trace_id" value="0d543239aa09f8f3" />
+      <string key="session_id" value="1a08ad15-b320-43a7-b426-00684175fd86" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:19.639+00:00" />
+      <float key="duration_s" value="1.992" />
+      <string key="trace_id" value="0d543239aa09f8f3" />
+      <string key="session_id" value="1a08ad15-b320-43a7-b426-00684175fd86" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:21.265+00:00" />
+      <float key="duration_s" value="1.626" />
+      <string key="trace_id" value="0d543239aa09f8f3" />
+      <string key="session_id" value="1a08ad15-b320-43a7-b426-00684175fd86" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:22.968+00:00" />
+      <float key="duration_s" value="1.702" />
+      <string key="trace_id" value="0d543239aa09f8f3" />
+      <string key="session_id" value="1a08ad15-b320-43a7-b426-00684175fd86" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:26.427+00:00" />
+      <float key="duration_s" value="3.459" />
+      <string key="trace_id" value="0d543239aa09f8f3" />
+      <string key="session_id" value="1a08ad15-b320-43a7-b426-00684175fd86" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2188a87634b59015" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:33.537+00:00" />
+      <float key="duration_s" value="1.403" />
+      <string key="trace_id" value="2188a87634b59015" />
+      <string key="session_id" value="592522b5-d07d-4508-8b02-a23f20dff6ab" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:36.480+00:00" />
+      <float key="duration_s" value="2.942" />
+      <string key="trace_id" value="2188a87634b59015" />
+      <string key="session_id" value="592522b5-d07d-4508-8b02-a23f20dff6ab" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="e4ed1d3b44c45451" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:36.749+00:00" />
+      <float key="duration_s" value="1.215" />
+      <string key="trace_id" value="e4ed1d3b44c45451" />
+      <string key="session_id" value="035abbc8-98a4-487b-9421-593a04e80bc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:40.098+00:00" />
+      <float key="duration_s" value="3.348" />
+      <string key="trace_id" value="e4ed1d3b44c45451" />
+      <string key="session_id" value="035abbc8-98a4-487b-9421-593a04e80bc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:41.782+00:00" />
+      <float key="duration_s" value="1.684" />
+      <string key="trace_id" value="e4ed1d3b44c45451" />
+      <string key="session_id" value="035abbc8-98a4-487b-9421-593a04e80bc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:43.464+00:00" />
+      <float key="duration_s" value="1.681" />
+      <string key="trace_id" value="e4ed1d3b44c45451" />
+      <string key="session_id" value="035abbc8-98a4-487b-9421-593a04e80bc7" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:41:47.829+00:00" />
+      <float key="duration_s" value="4.364" />
+      <string key="trace_id" value="e4ed1d3b44c45451" />
+      <string key="session_id" value="035abbc8-98a4-487b-9421-593a04e80bc7" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="31bd485d3e4ca812" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:46.992+00:00" />
+      <float key="duration_s" value="1.668" />
+      <string key="trace_id" value="31bd485d3e4ca812" />
+      <string key="session_id" value="b25927a4-68db-4d6a-afae-2965b18ce69f" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:49.663+00:00" />
+      <float key="duration_s" value="2.670" />
+      <string key="trace_id" value="31bd485d3e4ca812" />
+      <string key="session_id" value="b25927a4-68db-4d6a-afae-2965b18ce69f" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:51.250+00:00" />
+      <float key="duration_s" value="1.587" />
+      <string key="trace_id" value="31bd485d3e4ca812" />
+      <string key="session_id" value="b25927a4-68db-4d6a-afae-2965b18ce69f" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:54.404+00:00" />
+      <float key="duration_s" value="3.153" />
+      <string key="trace_id" value="31bd485d3e4ca812" />
+      <string key="session_id" value="b25927a4-68db-4d6a-afae-2965b18ce69f" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="6d9a625a6a57950a" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:03.244+00:00" />
+      <float key="duration_s" value="1.805" />
+      <string key="trace_id" value="6d9a625a6a57950a" />
+      <string key="session_id" value="917cd48a-24ed-47b3-85dd-837661998881" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:05.402+00:00" />
+      <float key="duration_s" value="2.157" />
+      <string key="trace_id" value="6d9a625a6a57950a" />
+      <string key="session_id" value="917cd48a-24ed-47b3-85dd-837661998881" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:07.161+00:00" />
+      <float key="duration_s" value="1.760" />
+      <string key="trace_id" value="6d9a625a6a57950a" />
+      <string key="session_id" value="917cd48a-24ed-47b3-85dd-837661998881" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:10.195+00:00" />
+      <float key="duration_s" value="3.033" />
+      <string key="trace_id" value="6d9a625a6a57950a" />
+      <string key="session_id" value="917cd48a-24ed-47b3-85dd-837661998881" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="c6f73569d727797f" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:39.102+00:00" />
+      <float key="duration_s" value="1.199" />
+      <string key="trace_id" value="c6f73569d727797f" />
+      <string key="session_id" value="5bc7384e-8614-42b0-a2fb-0e41eed4632b" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:41.605+00:00" />
+      <float key="duration_s" value="2.502" />
+      <string key="trace_id" value="c6f73569d727797f" />
+      <string key="session_id" value="5bc7384e-8614-42b0-a2fb-0e41eed4632b" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:43.336+00:00" />
+      <float key="duration_s" value="1.730" />
+      <string key="trace_id" value="c6f73569d727797f" />
+      <string key="session_id" value="5bc7384e-8614-42b0-a2fb-0e41eed4632b" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:44.995+00:00" />
+      <float key="duration_s" value="1.659" />
+      <string key="trace_id" value="c6f73569d727797f" />
+      <string key="session_id" value="5bc7384e-8614-42b0-a2fb-0e41eed4632b" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:48.752+00:00" />
+      <float key="duration_s" value="3.756" />
+      <string key="trace_id" value="c6f73569d727797f" />
+      <string key="session_id" value="5bc7384e-8614-42b0-a2fb-0e41eed4632b" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="feada42ea2be6327" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:31.160+00:00" />
+      <float key="duration_s" value="1.246" />
+      <string key="trace_id" value="feada42ea2be6327" />
+      <string key="session_id" value="00742bcd-0461-44cf-ae53-4b6d088a56c8" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:33.083+00:00" />
+      <float key="duration_s" value="1.922" />
+      <string key="trace_id" value="feada42ea2be6327" />
+      <string key="session_id" value="00742bcd-0461-44cf-ae53-4b6d088a56c8" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:34.706+00:00" />
+      <float key="duration_s" value="1.622" />
+      <string key="trace_id" value="feada42ea2be6327" />
+      <string key="session_id" value="00742bcd-0461-44cf-ae53-4b6d088a56c8" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:41.168+00:00" />
+      <float key="duration_s" value="6.462" />
+      <string key="trace_id" value="feada42ea2be6327" />
+      <string key="session_id" value="00742bcd-0461-44cf-ae53-4b6d088a56c8" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:45.092+00:00" />
+      <float key="duration_s" value="3.924" />
+      <string key="trace_id" value="feada42ea2be6327" />
+      <string key="session_id" value="00742bcd-0461-44cf-ae53-4b6d088a56c8" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="49ab8d399850e729" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:42.286+00:00" />
+      <float key="duration_s" value="1.730" />
+      <string key="trace_id" value="49ab8d399850e729" />
+      <string key="session_id" value="47cd0e0c-b666-4c03-a062-b47b44fa9b6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:43.982+00:00" />
+      <float key="duration_s" value="1.696" />
+      <string key="trace_id" value="49ab8d399850e729" />
+      <string key="session_id" value="47cd0e0c-b666-4c03-a062-b47b44fa9b6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:45.809+00:00" />
+      <float key="duration_s" value="1.827" />
+      <string key="trace_id" value="49ab8d399850e729" />
+      <string key="session_id" value="47cd0e0c-b666-4c03-a062-b47b44fa9b6a" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:44:48.998+00:00" />
+      <float key="duration_s" value="3.189" />
+      <string key="trace_id" value="49ab8d399850e729" />
+      <string key="session_id" value="47cd0e0c-b666-4c03-a062-b47b44fa9b6a" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="883eb7654dfc453d" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:10.851+00:00" />
+      <float key="duration_s" value="1.670" />
+      <string key="trace_id" value="883eb7654dfc453d" />
+      <string key="session_id" value="190bd44c-efba-4a22-b905-3583bdacec20" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:12.760+00:00" />
+      <float key="duration_s" value="1.909" />
+      <string key="trace_id" value="883eb7654dfc453d" />
+      <string key="session_id" value="190bd44c-efba-4a22-b905-3583bdacec20" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:14.411+00:00" />
+      <float key="duration_s" value="1.650" />
+      <string key="trace_id" value="883eb7654dfc453d" />
+      <string key="session_id" value="190bd44c-efba-4a22-b905-3583bdacec20" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:17.815+00:00" />
+      <float key="duration_s" value="3.404" />
+      <string key="trace_id" value="883eb7654dfc453d" />
+      <string key="session_id" value="190bd44c-efba-4a22-b905-3583bdacec20" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3cf6a99ae69ae7ff" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:31.788+00:00" />
+      <float key="duration_s" value="1.506" />
+      <string key="trace_id" value="3cf6a99ae69ae7ff" />
+      <string key="session_id" value="b2367b61-b357-4de5-b858-67fb62fd0100" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:34.633+00:00" />
+      <float key="duration_s" value="2.845" />
+      <string key="trace_id" value="3cf6a99ae69ae7ff" />
+      <string key="session_id" value="b2367b61-b357-4de5-b858-67fb62fd0100" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="b1ec97ef8b4dcab3" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:19.924+00:00" />
+      <float key="duration_s" value="1.214" />
+      <string key="trace_id" value="b1ec97ef8b4dcab3" />
+      <string key="session_id" value="0e13f9d1-ce53-4380-98d5-1f02dc1d658f" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:47:22.366+00:00" />
+      <float key="duration_s" value="2.442" />
+      <string key="trace_id" value="b1ec97ef8b4dcab3" />
+      <string key="session_id" value="0e13f9d1-ce53-4380-98d5-1f02dc1d658f" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="8cb4755daeb4d0c5" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:28.588+00:00" />
+      <float key="duration_s" value="1.227" />
+      <string key="trace_id" value="8cb4755daeb4d0c5" />
+      <string key="session_id" value="e62937a0-17ac-4d90-a1c8-43cf23d2d3ef" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:43:31.015+00:00" />
+      <float key="duration_s" value="2.427" />
+      <string key="trace_id" value="8cb4755daeb4d0c5" />
+      <string key="session_id" value="e62937a0-17ac-4d90-a1c8-43cf23d2d3ef" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="6769ace42f77a9f7" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:12.633+00:00" />
+      <float key="duration_s" value="1.221" />
+      <string key="trace_id" value="6769ace42f77a9f7" />
+      <string key="session_id" value="a6e49aa0-4a54-42a5-b452-e38e19dc7bfd" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:14.443+00:00" />
+      <float key="duration_s" value="1.810" />
+      <string key="trace_id" value="6769ace42f77a9f7" />
+      <string key="session_id" value="a6e49aa0-4a54-42a5-b452-e38e19dc7bfd" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:16.557+00:00" />
+      <float key="duration_s" value="2.113" />
+      <string key="trace_id" value="6769ace42f77a9f7" />
+      <string key="session_id" value="a6e49aa0-4a54-42a5-b452-e38e19dc7bfd" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:19.279+00:00" />
+      <float key="duration_s" value="2.722" />
+      <string key="trace_id" value="6769ace42f77a9f7" />
+      <string key="session_id" value="a6e49aa0-4a54-42a5-b452-e38e19dc7bfd" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="235d723da1b0b44d" />
+    <event>
+      <string key="concept:name" value="graph_router" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:55.695+00:00" />
+      <float key="duration_s" value="1.270" />
+      <string key="trace_id" value="235d723da1b0b44d" />
+      <string key="session_id" value="9bcf8b63-43e0-43ac-8c76-ba4e68ba661d" />
+    </event>
+    <event>
+      <string key="concept:name" value="sec_extractor" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:57.915+00:00" />
+      <float key="duration_s" value="2.220" />
+      <string key="trace_id" value="235d723da1b0b44d" />
+      <string key="session_id" value="9bcf8b63-43e0-43ac-8c76-ba4e68ba661d" />
+    </event>
+    <event>
+      <string key="concept:name" value="stock_fetcher" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:45:59.677+00:00" />
+      <float key="duration_s" value="1.761" />
+      <string key="trace_id" value="235d723da1b0b44d" />
+      <string key="session_id" value="9bcf8b63-43e0-43ac-8c76-ba4e68ba661d" />
+    </event>
+    <event>
+      <string key="concept:name" value="news_summarizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:01.528+00:00" />
+      <float key="duration_s" value="1.851" />
+      <string key="trace_id" value="235d723da1b0b44d" />
+      <string key="session_id" value="9bcf8b63-43e0-43ac-8c76-ba4e68ba661d" />
+    </event>
+    <event>
+      <string key="concept:name" value="synthesizer" />
+      <string key="org:resource" value="" />
+      <date key="time:timestamp" value="2026-05-25T23:46:05.497+00:00" />
+      <float key="duration_s" value="3.968" />
+      <string key="trace_id" value="235d723da1b0b44d" />
+      <string key="session_id" value="9bcf8b63-43e0-43ac-8c76-ba4e68ba661d" />
+    </event>
+  </trace>
+</log>
